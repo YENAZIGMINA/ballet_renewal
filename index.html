@@ -1,0 +1,1731 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>국립발레단</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- 파비콘 -->
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+
+    <!-- open graph (오픈 그래프) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://knb-renewal.netlify.app/"> <!-- content = "내 사이트주소 넣기" -->
+    <meta property="og:title" content="국립발레단">
+    <meta property="og:description" content="한국을 대표하는 발레단 국립발레단">
+    <meta property="og:image" content="img/first.jpg">
+    <!--✔og는 open graph의 약자, 오픈그래프의 속성을 이용해서 더 많은 정보를 입력할 수 있다
+    og:type -> 페이지의 유형(웹사이트, 비디오 등)
+    og:url -> 페이지의 주소(서버주소)
+    og:title -> 페이지의 이름(제목)
+    og:description -> 페이지의 간단한 설명
+    og:image  -> 페이지의 대표 이미지 -->
+</head>
+
+<body>
+    <div class="ie">
+        <p>본사이트는 Full CSS 3D가 사용된 페이지로 webkit기반 브라우저(크롬,사파리 등)에서 확인하십시오.</p>
+        <h2>본 사이트는 포트폴리오용이며, 크롬, 엣지 또는 사파리에서 확인해주십시오.
+            <br>
+            감사합니다(❁´◡`❁)
+        </h2>
+    </div>
+
+    <div class="cookie">
+        <a href="#" class="close"><i class="fas fa-times-circle"></i></a>
+        <span class="jua">Notice</span>
+            <div class="c_txt noto">
+                방문해주셔서 감사합니다.<br>
+                본 사이트는 반응형이 아닌<br>
+                <b>크롬브라우저의 "1920x1080"해상도</b>에<br>
+                최적화된 사이즈입니다.
+            </div>
+            <div class="day_7">
+                <input type="checkbox" id="cb">
+                <label class="hide noto" for="cb">7일간 보지 않기</label>
+            </div> <!-- /day_7 -->
+    </div> <!-- /cookie -->
+
+
+    <div id="loading">
+        
+        <div class="loading-inner">
+            <div class="flex">
+                <div class="spell 1">
+                    <span>0</span>
+                    <span>1</span>
+                </div>
+                <div class="spell 2">
+                    <span>0</span>
+                    <span>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>4</span>
+                    <span>5</span>
+                    <span>6</span>
+                    <span>7</span>
+                    <span>8</span>
+                    <span>9</span>
+                    <span>0</span>
+                </div>
+                <div class="spell 3">
+                    <span>0</span>
+                    <span>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>4</span>
+                    <span>5</span>
+                    <span>6</span>
+                    <span>7</span>
+                    <span>8</span>
+                    <span>9</span>
+                    <span>0</span>
+                </div>
+                <div class="spell 4">
+                    <span>%</span>
+                </div>
+            </div> <!-- /flex -->
+        </div> <!-- /loading-inner -->
+        <div class="loading_bar">
+            <div class="bar"></div> <!-- /bar -->
+            <div class="bar_inner"></div> <!-- /bar -->
+        </div>
+
+        <div class="img_wrap">
+            <div class="container">
+                <div class="img_container">
+                    <div class="imgs">
+                        <figure>
+                            <img src="img/giselle.jpg" alt="지젤">
+                            <p>Love Giselle</p>
+                        </figure>
+                        <figure>
+                            <img src="img/SwanLake.jpg" alt="백조의호수">
+                            <p>Swan Lake</p>
+                        </figure>
+                        <figure>
+                            <img src="img/nuts.jpg" alt="호두까기">
+                            <p>&nbsp;Nuts Doll</p>
+                        </figure>
+                        <figure>
+                            <img src="img/LeCorsaire.jpg" alt="해적">
+                            <p>&nbsp;LeCorsaire</p>
+                        </figure>
+                        <figure>
+                            <img src="img/DonQuixote.jpg" alt="돈키호테">
+                            <p>DonQuixote</p>
+                        </figure>
+                        <figure>
+                            <img src="img/we_replay.jpg" alt="우리,다시">
+                            <p>&nbsp;We, replay</p>
+                        </figure>
+                        <figure>
+                            <img src="img/jewels.png" alt="주얼스">
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;Jewels</p>
+                        </figure>
+                        <figure>
+                            <img src="img/LaBayadere.jpg" alt="라바야데르">
+                            <p>La Bayadere</p>
+                        </figure>
+                        <figure>
+                            <img src="img/TripleBill.jpg" alt="트리플 빌">
+                            <p>&nbsp;Triple Bill</p>
+                        </figure>
+                    </div>
+                </div> <!-- /img_container -->
+            </div> <!-- /container -->
+        </div> <!-- /img_wrap -->
+
+        <div class="i_wrap" data-0="opacity:1;" data-1000="opacity:0;">
+            <div class="circle">
+                <div class="c_1"></div>
+                <div class="c_2"></div>
+                <div class="c_3"></div>
+                <div class="c_4"></div>
+            </div> <!-- /circle -->
+            <div class="i_title">
+                <span class="first animate" data-animate="zoomInDown" data-duration="1s" data-delay="1s">Korea</span>
+
+                <span class="second animate" data-animate="zoomInUp" data-duration="1s"
+                    data-delay="1.2s">National</span>
+
+                <span class="third animate" data-animate="zoomInUp" data-duration="1s" data-delay="1.4s">Ballet</span>
+            </div> <!-- /i_title -->
+        </div>
+        <!--/i_wrap -->
+    </div> <!-- /#loading -->
+
+    <header>
+        <section id="header">
+            <header class="header">
+                <div class="h_inner animate" data-animate="fadeInDown" data-duration="1s" data-delay="0.3s">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="img/logo/logo-re3.png" alt="logo">
+                        </a>
+                    </div> <!-- /logo -->
+
+                    
+                    <div class="menuOpen">
+                        <!-- 모바일 메뉴(햄버거🍔) -->
+                        <nav id="mNav">
+                            <h2 class="ir">국립발레단 전체메뉴</h2>
+                            <a href="#" class="ham"><span></span></a>
+                        </nav> <!-- #mNav end -->
+            
+                        <div class="menuWrap">
+                            <a href="#" class="close en"><i class="ri-close-line"></i></a>
+                            <ul class="tit en animate" data-animate="motion">
+                                <li>
+                                    <a href="#introduce">
+                                        <span><b>Introduce</b></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#people">
+                                        <span><b>People</b></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#performance">
+                                        <span><b>Performance</b></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#academy">
+                                        <span><b>Academy</b></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#news">
+                                        <span><b>News</b></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div> <!-- /menuWrap -->
+                    </div> <!-- /menuOpen -->
+
+
+                    <div class="menu_left">
+                        <ul class="cabin">
+                            <li>
+                                <a href="#introduce">Introduce</a>
+                                <ul class="depth noto">
+                                    <li><a href="#">인사말</a></li>
+                                    <li><a href="#">발레단소개</a></li>
+                                    <li><a href="#">연보</a></li>
+                                    <li><a href="#">찾아오시는 길</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#people">People</a>
+                                <ul class="depth noto">
+                                    <li><a href="#">조직도</a></li>
+                                    <li><a href="#">예술 스태프</a></li>
+                                    <li><a href="#">아티스트</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#performance">Performance</a>
+                                <ul class="depth noto">
+                                    <li><a href="#">공연안내</a></li>
+                                    <li><a href="#">공익안내</a></li>
+                                    <li><a href="#">월간일정</a></li>
+                                    <li><a href="#">연간일정</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#academy">Academy</a>
+                                <ul class="depth noto">
+                                    <li><a href="#">아카데미 소개</a></li>
+                                    <li><a href="#">강사진 소개</a></li>
+                                    <li><a href="#">강좌 등록안내</a></li>
+                                    <li><a href="#">자주 묻는 질문</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#news">News</a>
+                                <ul class="depth noto">
+                                    <li><a href="#">공지사항</a></li>
+                                    <li><a href="#">뉴스레터</a></li>
+                                    <li><a href="#">1:1 문의</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div> <!-- /menu_left -->
+
+                    <div class="menu_right">
+                        <ul class="bottom">
+                            <li><a href="https://www.facebook.com/kballet1962" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="https://www.instagram.com/kballet1962/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://twitter.com/i/flow/login?redirect_after_login=%2FKN_BALLET" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCqXxaAUCdtML1POvdp3Zm1w" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                            <li><a href="#">Log in</a></li>
+                        </ul>
+                    </div> <!-- /menu_right -->
+                </div> <!-- /h_inner -->
+            </header> <!-- /header -->
+        </section> <!-- /#header -->
+    </header>
+
+    <main>
+        <div class="main_wrapper">
+                <div class="main_wrap">
+                    <div class="container">
+                        <div class="main_img">
+                            <div class="right_wrap animate" 
+                            data-animate="fadeInLeft" 
+                            data-duration="1s"
+                            >
+        
+                                <div class="r_ornament">
+                                    <div class="basic">
+                                        <!-- <img src="img/Exposure.png" alt="왼쪽브러쉬"> -->
+                                    </div>
+                                    <div class="extra">
+                                        <!-- <img src="img/Orange_Flex.png" alt="왼쪽브러쉬"> -->
+                                    </div>
+                                    <div class="o_circle_r"></div>
+                                    <div class="o_circle_l"></div>
+                                </div> <!-- /r_ornament -->
+                                <div class="right_img">
+                                    <div class="r_slide">
+                                        <img src="img/R01_main.jpg" alt="right_img">
+                                    </div>
+                                    <div class="r_slide">
+                                        <img src="img/R01_sub.jpg" alt="sub_img">
+                                    </div>
+                                    <div class="r_slide">
+                                        <img src="img/R02_main.jpg" alt="right_img">
+                                    </div>
+                                    <div class="r_slide">
+                                        <img src="img/R02_sub.jpg" alt="sub_img">
+                                    </div>
+                                    <div class="r_slide">
+                                        <img src="img/R03_main.jpg" alt="right_img">
+                                    </div>
+                                    <div class="r_slide">
+                                        <img src="img/R03_sub.jpg" alt="sub_img">
+                                    </div>
+                                </div> <!-- /right_img -->
+                            </div> <!-- /right_wrap -->
+        
+                            <div class="left_wrap animate" 
+                            data-animate="fadeInRight" 
+                            data-duration="1.2s"
+                            >
+                                <div class="l_ornament">
+                                    <div class="extra">
+                                        <!-- <img src="img/Coffee.png" alt="오른쪽브러쉬"> -->
+                                    </div>
+                                    <div class="yellow"></div>
+                                    <div class="rime_circle"></div>
+                                    <div class="o_circle"></div>
+                                </div> <!-- /l_ornament -->
+                                <div class="left_img">
+                                    <div class="l_slide">
+                                        <img src="img/L01_sub.jpg" alt="sub_img">
+                                    </div>
+                                    <div class="l_slide">
+                                        <img src="img/L01_main.jpg" alt="left_img">
+                                    </div>
+                                    <div class="l_slide">
+                                        <img src="img/L02_sub.jpg" alt="sub_img">
+                                    </div>
+                                    <div class="l_slide">
+                                        <img src="img/L02_main.jpg" alt="left_img">
+                                    </div>
+                                    <div class="l_slide">
+                                        <img src="img/L03_sub.jpg" alt="sub_img">
+                                    </div>
+                                    <div class="l_slide">
+                                        <img src="img/L03_main.jpg" alt="left_img">
+                                    </div>
+                                </div> <!-- /left_img -->
+                            </div> <!-- /left_wrap -->
+                        </div> <!-- /main_img -->
+                        
+                        <div class="b_circle animate" 
+                            data-animate="fadeInUp" 
+                            data-duration="2s"
+                            >
+                            <span>Click <i>!</i></span>
+                            </div> <!-- /b_circle -->
+                    </div> <!-- .container -->
+                </div> <!-- /main_wrap -->
+        </div> <!-- /main_wrapper -->
+
+            <section class="introduce" id="introduce">
+
+                <div class="move_bg">
+                    <section class="hero_gallery">
+                        <div class="hero_gallery_wrapper">
+                            <figure class="hero_gallery_figure">
+                                <img src="img/ballet-woman2-2.png" alt="발레여자" class="hero_gallery_image">
+                            </figure>
+                            <div class="hero_gallery_figure">
+                                <span class="hero_gallery_image">Korea</span>
+                            </div>
+                            <div class="hero_gallery_figure">
+                                <span class="hero_gallery_image">Ballet</span>
+                            </div>
+                            <figure class="hero_gallery_figure">
+                                <img src="img/ballet-woman3-1.png" alt="발레여자" class="hero_gallery_image">
+                            </figure>
+                            <div class="hero_gallery_figure">
+                                <span class="hero_gallery_image">National</span>
+                            </div>
+                            <div class="hero_gallery_figure">
+                                <span class="hero_gallery_image">Ballet</span>
+                            </div>
+                            <figure class="hero_gallery_figure">
+                                <img src="img/ballet-woman.png" alt="발레여자" class="hero_gallery_image">
+                            </figure>
+                            <div class="hero_gallery_figure">
+                                <span class="hero_gallery_image">Enjoy</span>
+                            </div>
+                            <div class="hero_gallery_figure">
+                                <span class="hero_gallery_image">Ballet</span>
+                            </div>
+                            <figure class="hero_gallery_figure">
+                                <img src="img/ballet-woman2-2.png" alt="발레여자" class="hero_gallery_image">
+                            </figure>
+                            <div class="hero_gallery_figure">
+                                <span class="hero_gallery_image">Korea</span>
+                            </div>
+                            <div class="hero_gallery_figure">
+                                <span class="hero_gallery_image">Ballet</span>
+                            </div>
+                        </div> <!-- /hero_gallery_wrapper -->
+                    </section>
+
+                    <section class="hero_gallery">
+                        <div class="hero_gallery_wrapper">
+                            <figure class="hero_gallery_figure">
+                                <img src="img/ballet-woman2-2.png" alt="발레여자" class="hero_gallery_image">
+                            </figure>
+                            <div class="hero_gallery_figure">
+                                <span class="hero_gallery_image">Korea</span>
+                            </div>
+                            <div class="hero_gallery_figure">
+                                <span class="hero_gallery_image">National</span>
+                            </div>
+                            <div class="hero_gallery_figure">
+                                <span class="hero_gallery_image">Ballet</span>
+                            </div>
+                            <figure class="hero_gallery_figure">
+                                <img src="img/ballet-woman3-1.png" alt="발레여자" class="hero_gallery_image">
+                            </figure>
+                            <div class="hero_gallery_figure">
+                                <span class="hero_gallery_image">Korea</span>
+                            </div>
+                            <div class="hero_gallery_figure">
+                                <span class="hero_gallery_image">National</span>
+                            </div>
+                            <div class="hero_gallery_figure">
+                                <span class="hero_gallery_image">Ballet</span>
+                            </div>
+                            <figure class="hero_gallery_figure">
+                                <img src="img/ballet-woman.png" alt="발레여자" class="hero_gallery_image">
+                            </figure>
+                            <div class="hero_gallery_figure">
+                                <span class="hero_gallery_image">Enjoy</span>
+                            </div>
+                            <div class="hero_gallery_figure">
+                                <span class="hero_gallery_image">Love</span>
+                            </div>
+                            <div class="hero_gallery_figure">
+                                <span class="hero_gallery_image">Ballet</span>
+                            </div>
+                        </div> <!-- /hero_gallery_wrapper -->
+                    </section>
+                    
+                    <section class="hero_gallery">
+                        <div class="hero_gallery_wrapper">
+                            <figure class="hero_gallery_figure">
+                                <img src="img/ballet-woman2-2.png" alt="발레여자" class="hero_gallery_image">
+                            </figure>
+                            <div class="hero_gallery_figure">
+                                <span class="hero_gallery_image">Korea</span>
+                            </div>
+                            <div class="hero_gallery_figure">
+                                <span class="hero_gallery_image">National</span>
+                            </div>
+                            <div class="hero_gallery_figure">
+                                <span class="hero_gallery_image">Ballet</span>
+                            </div>
+                            <figure class="hero_gallery_figure">
+                                <img src="img/ballet-woman3-1.png" alt="발레여자" class="hero_gallery_image">
+                            </figure>
+                            <div class="hero_gallery_figure">
+                                <span class="hero_gallery_image">Korea</span>
+                            </div>
+                            <div class="hero_gallery_figure">
+                                <span class="hero_gallery_image">National</span>
+                            </div>
+                            <div class="hero_gallery_figure">
+                                <span class="hero_gallery_image">Ballet</span>
+                            </div>
+                            <figure class="hero_gallery_figure">
+                                <img src="img/ballet-woman.png" alt="발레여자" class="hero_gallery_image">
+                            </figure>
+                            <div class="hero_gallery_figure">
+                                <span class="hero_gallery_image">Enjoy</span>
+                            </div>
+                            <div class="hero_gallery_figure">
+                                <span class="hero_gallery_image">Love</span>
+                            </div>
+                            <div class="hero_gallery_figure">
+                                <span class="hero_gallery_image">Ballet</span>
+                            </div>
+                        </div> <!-- /hero_gallery_wrapper -->
+                    </section>
+                    
+                    <section class="hero_gallery">
+                        <div class="hero_gallery_wrapper">
+                            <figure class="hero_gallery_figure">
+                                <img src="img/ballet-woman2-2.png" alt="발레여자" class="hero_gallery_image">
+                            </figure>
+                            <div class="hero_gallery_figure">
+                                <span class="hero_gallery_image">Korea</span>
+                            </div>
+                            <div class="hero_gallery_figure">
+                                <span class="hero_gallery_image">Ballet</span>
+                            </div>
+                            <figure class="hero_gallery_figure">
+                                <img src="img/ballet-woman3-1.png" alt="발레여자" class="hero_gallery_image">
+                            </figure>
+                            <div class="hero_gallery_figure">
+                                <span class="hero_gallery_image">National</span>
+                            </div>
+                            <div class="hero_gallery_figure">
+                                <span class="hero_gallery_image">Ballet</span>
+                            </div>
+                            <figure class="hero_gallery_figure">
+                                <img src="img/ballet-woman.png" alt="발레여자" class="hero_gallery_image">
+                            </figure>
+                            <div class="hero_gallery_figure">
+                                <span class="hero_gallery_image">Enjoy</span>
+                            </div>
+                            <div class="hero_gallery_figure">
+                                <span class="hero_gallery_image">Ballet</span>
+                            </div>
+                            <figure class="hero_gallery_figure">
+                                <img src="img/ballet-woman2-2.png" alt="발레여자" class="hero_gallery_image">
+                            </figure>
+                            <div class="hero_gallery_figure">
+                                <span class="hero_gallery_image">Korea</span>
+                            </div>
+                            <div class="hero_gallery_figure">
+                                <span class="hero_gallery_image">Ballet</span>
+                            </div>
+                        </div> <!-- /hero_gallery_wrapper -->
+                    </section>
+                </div> <!-- /move_bg -->
+
+                <div class="container">
+                    <div class="title animate"
+                    data-animate="fadeIn"
+                    data-duration="1s"
+                    data-delay="0.5s"
+                    >
+                        <h2 class="noto">국립발레단 소개</h2>
+                        <span class="noto">Introduce</span>
+                    </div>
+
+                    <div class="int_wrap">
+                        <div class="cursor_wrap">
+                            <div class="cursor"></div>
+                        </div>
+                        <div class="img_wrap">
+                            <div class="int_img"></div>
+                        </div> <!-- /img_wrap -->
+
+                        <div class="text_wrap">
+                            <div class="int_text animate"
+                            data-animate="fadeInUp"
+                            data-duration="0.5s"
+                            >
+                                <div class="mouse_text">
+                                    마우스를 올려보세요!
+                                </div> <!-- /mouse_text -->
+                                <div class="col_1">
+                                    <p>
+                                        &nbsp;&nbsp;&nbsp;국립발레단은 1962년 창단된 대한민국 최초의 직업발레단으로 한국 발레 역사의 상징과도 같다.
+                                        60여 년의 시간 동안 수많은 무용수와 안무가, 그리고 훌륭한 예술감독과 작품 덕분에 국립발레단은 국내뿐만 아니라 해외에서도 그 위상을 인정받고 있다.
+                                        <br><br>
+                                        &nbsp;&nbsp;&nbsp;현재 국내 최정상 무용수 60여 명과 세계적인 명작들을 레퍼토리로 보유하고 있으며, 정기공연을 비롯한 다양한 공연을 통해 끊임없이 관객들을 찾아가고 있다. 국립발레단의 대표적인 전막 작품으로는 유리 그리고로비치의 '백조의 호수', '호두까기인형', '스파르타쿠스', '라 바야데르', 파트리스 바르의 '지젤', 마르시아 하이데의 '잠자는 숲속의 미녀', 존 크랭코의 '말괄량이 길들이기' 등을 꼽을 수 있다. 국립발레단은 고유의 창작 발레 레퍼토리 개발에도 끊임없이 노력하고 있다.
+                                    </p>
+                                </div>
+                                <div class="last_col">
+                                    <p>
+                                        &nbsp;&nbsp;&nbsp;국립발레단은 2015년부터 시작된 안무가 육성 프로젝트인 'KNB Movement Series'를 통해 단원들이 무용수뿐만 아니라 안무가로서의 역량을
+                                        발휘할 기회를 마련해 주고 있다. 이는 신진 안무가 발굴을 통해 무용수의 제2의 인생을 지원한다는 점에 큰 의미가 있을 뿐만 아니라 일회성 공연에
+                                        그치지 않고 하나의 탄탄한 작품이 될 수 있도록 지원함으로써 국립발레단의 레퍼토리 개발에도 한 몫을 하고 있다.
+                                        국립발레단은 국내 발레의 대중화라는 큰 의무를 위해 공연뿐만 아니라
+                                        전국 방방곡곡으로 ‘찾아가는 지역공연’, ‘찾아가는 발레교실’,
+                                        '꿈나무 발레교실' 등 크고 작은 프로그램들을 진행하며
+                                        다양한 공익사업을 펼치고 있다.
+                                        또한, 해외로도 활동 범위를 넓혀 세계 각지에서 공연을 올리며
+                                        한국을 대표하는 발레단으로서 대한민국 문화예술의 우수성을
+                                        전 세계로 널리 알리는 데 기여하고 있다.
+                                    </p>
+                                </div>
+                                <div class="plus">
+                                    <a href="#" class="line"><span>R</span>ead more</a>
+                                </div>
+                            </div> <!-- /int_text -->
+                        </div> <!-- /text_wrap -->
+                    </div> <!-- /int_wrap -->
+
+                </div> <!-- /container -->
+            </section> <!-- /introduce -->
+
+            <section class="line" id="line">
+                <svg version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1518.59 969.86" style="enable-background:new 0 0 1518.59 969.86;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#EC671B;stroke-miterlimit:10;}
+</style>
+<path class="st0 path1" d="M1534.78,194.69c0,0-121.96,51.43-104.33,182.2s26.45,264.49-17.63,293.88
+	c-44.08,29.39-52.53-49.22-17.27-48.12s64.65,54,63.55,92.57c-0.82,28.86,0,128.94-89.27,178.53
+	c-52.62,29.24-213.44,11.35-263.39-117.92c-37.47-96.98-206.08-178.53-404.45-87.06C558.34,755.02,147.67,838.65,0,425.39"/>
+                </svg>
+            </section> <!-- /line -->
+
+            <section class="academy" id="academy">
+                <div class="container">
+                    <div class="title animate"
+                    data-animate="fadeIn"
+                    data-duration="1s"
+                    >
+                        <h2 class="noto">ACADEMY 소개</h2>
+                        <span class="noto">Introduce</span>
+                    </div> <!-- /title -->
+
+                    <div class="academy_wrap clearfix">
+                        <div class="application_wrap">
+                            <div class="application">
+                                <img src="img/point1.png" alt="point1" class="point1 animate"
+                                data-animate="headShake"
+                                data-duration="1s">
+                                <div class="app_title noto  animate"
+                                data-animate="fadeInUp"
+                                data-duration="1s">
+                                    국내 최초 발레단 산하 아카데미 <br>
+                                    국내 최초의 성인취미반<br>
+                                </div>
+                                <img src="img/point2.png" alt="point2" class="point2 animate"
+                                data-animate="headShake"
+                                data-duration="1s">
+                                <div class="app_sub_title">
+                                    <span class="noto animate"
+                                    data-animate="fadeInUp"
+                                    data-duration="1s">Application</span>
+                                </div>
+
+                                <form action="#">
+                                    <div class="name">
+                                        <label for="name">Name</label>
+                                        <input type="text" id="name" class="w_box" maxlength="7">
+                                    </div>
+                                    
+                                    <div class="class_choice">
+                                        <label for="class">Class</label>
+                                        <input type="radio" name="gender" class="radio" checked> 영재 아카데미
+                                        <input type="radio" name="gender" class="radio"> 성인 취미반
+                                    </div>
+                                    
+                                    <div class="e_mail">
+                                        <label for="email">Email</label>
+                                        <input type="email" id="email_front">@
+                                        <select name="email" id="email_back">
+                                        <option value="">메일 선택</option>
+                                        <option value="naver">naver.com</option>
+                                        <option value="daum">daum.net</option>
+                                        <option value="google">google.com</option>
+                                        <option value="yahoo">yahoo.com</option>
+                                    </select>
+                                    </div>
+                                    
+                                    <div class="phone">
+                                        <label for="hp">H&middot;P</label>
+                                        <input type="text" id="hp" class="w_box" placeholder="  - 를 포함하여 작성해주세요." maxlength="13">
+                                    </div>
+                                    
+                                    <div class="memo">
+                                        <label for="msg">Request</label>
+                                        <textarea name="msg" id="msg" cols="49" rows="4"></textarea>
+                                    </div>
+                                </form>
+
+                                <div class="submit" title="Click!">
+                                    <a href="#"><span>S</span>UBMIT !</a>
+                                </div>
+                                <div class="click"><i class="fas fa-angle-up"></i> Click !</div>
+                            </div> <!-- /application -->
+
+                        </div> <!-- /application_wrap -->
+
+                        <div class="img-comp-container animate"
+                        data-animate="fadeInUp"
+                        data-duration="0.2s">
+                            <div class="img-comp-img">
+                                <img src="img/adult.png" alt="adult-ballet" width="700" height="700">
+                            </div>
+                            <div class="img-comp-img img-comp-overlay">
+                                <img src="img/kids-ballet.jpg" alt="kids-ballet" width="700" height="700" >
+                            </div>
+                        </div>
+
+                    </div> <!-- /academy_wrap -->
+                </div> <!-- /container -->
+            </section> <!-- /academy -->
+
+            <section class="performance" id="performance">
+                <div class="container">
+                    <div class="perfo_top">
+                        <div class="title animate"
+                        data-animate="fadeIn"
+                        data-duration="1s"
+                        >
+                        <h2 class="noto">공연정보</h2>
+                        <span class="noto">Performance</span>
+                        </div> <!-- /title -->
+
+                        <div class="more_btn line_f">
+                            <a href="#">MORE
+                            <i class="fas fa-plus"></i></a>
+                        </div> <!-- /more_btn -->
+                    </div> <!-- /perfo_top -->
+
+                    <div class="perfo_slide">
+                        <div class="slide slide_1">
+                            <div class="img_wrap">
+                                <img src="img/slide_01.png" alt="KNB MOVEMENT">
+                            </div> <!-- /img_wrap -->
+
+                            <div class="text_wrap">
+                                <div class="text_info">
+                                    <div class="text_tit">
+                                        <h4>KNB MOVEMENT</h4>
+                                        <span></span>
+                                    </div> <!-- /text_tit -->
+    
+                                    <div class="text_bottom">
+                                        <span>예술의전당 토월극장</span>
+                                        <p>2023.07.01 - 07.02</p>
+                                    </div> <!-- /text_bottom -->
+                                </div> <!-- /text_info -->
+                                
+                            </div> <!-- /text_wrap -->
+                        </div> <!-- /slide_1 -->
+
+                        <div class="slide slide_2">
+                            <div class="img_wrap">
+                                <img src="img/slide_02.jpg" alt="트리플 빌">
+                            </div> <!-- /img_wrap -->
+
+                            <div class="text_wrap">
+                                <div class="text_info">
+                                    <div class="text_tit">
+                                        <h4>트리플 빌</h4>
+                                        <span></span>
+                                    </div> <!-- /text_tit -->
+    
+                                    <div class="text_bottom">
+                                        <span>예술의전당 토월극장</span>
+                                        <p>2023.08.25 - 08.27</p>
+                                    </div> <!-- /text_bottom -->
+                                </div> <!-- /text_info -->
+                            </div> <!-- /text_wrap -->
+                        </div> <!-- /slide_2 -->
+
+                        <div class="slide slide_3">
+                            <div class="img_wrap">
+                                <img src="img/slide_03.jpg" alt="고집쟁이 딸">
+                            </div> <!-- /img_wrap -->
+
+                            <div class="text_wrap">
+                                <div class="text_info">
+                                    <div class="text_tit">
+                                        <h4>고집쟁이 딸</h4>
+                                        <span></span>
+                                    </div> <!-- /text_tit -->
+    
+                                    <div class="text_bottom">
+                                        <span>예술의전당 오페라극장</span>
+                                        <p>2023.11.08 - 11.12</p>
+                                    </div> <!-- /text_bottom -->
+                                </div> <!-- /text_info -->
+                            </div> <!-- /text_wrap -->
+                        </div> <!-- /slide_3 -->
+
+                        <div class="slide slide_4">
+                            <div class="img_wrap">
+                                <img src="img/slide_04.jpg" alt="해적">
+                            </div> <!-- /img_wrap -->
+
+                            <div class="text_wrap">
+                                <div class="text_info">
+                                    <div class="text_tit">
+                                        <h4>해적</h4>
+                                        <span></span>
+                                    </div> <!-- /text_tit -->
+    
+                                    <div class="text_bottom">
+                                        <span>예술의전당 토월극장</span>
+                                        <p>2023.08.30 - 09.03</p>
+                                    </div> <!-- /text_bottom -->
+                                </div> <!-- /text_info -->
+                            </div> <!-- /text_wrap -->
+                        </div> <!-- /slide_4 -->
+
+                        <div class="slide slide_5">
+                            <div class="img_wrap">
+                                <img src="img/slide_05.jpg" alt="호두까기인형">
+                            </div> <!-- /img_wrap -->
+
+                            <div class="text_wrap">
+                                <div class="text_info">
+                                    <div class="text_tit">
+                                        <h4>호두까기인형</h4>
+                                        <span></span>
+                                    </div> <!-- /text_tit -->
+    
+                                    <div class="text_bottom">
+                                        <span>예술의전당 오페라극장</span>
+                                        <p>2023.12.09 - 12.25</p>
+                                    </div> <!-- /text_bottom -->
+                                </div> <!-- /text_info -->
+                            </div> <!-- /text_wrap -->
+                        </div> <!-- /slide_5 -->
+
+                        <div class="slide slide_6">
+                            <div class="img_wrap">
+                                <img src="img/slide_06.jpg" alt="지젤">
+                            </div> <!-- /img_wrap -->
+
+                            <div class="text_wrap">
+                                <div class="text_info">
+                                    <div class="text_tit">
+                                        <h4>지젤</h4>
+                                        <span></span>
+                                    </div> <!-- /text_tit -->
+    
+                                    <div class="text_bottom">
+                                        <span>예술의전당 오페라극장</span>
+                                        <p>2022.11.11 - 11.13</p>
+                                    </div> <!-- /text_bottom -->
+                                </div> <!-- /text_info -->
+                            </div> <!-- /text_wrap -->
+                        </div> <!-- /slide_6 -->
+
+                        <div class="slide slide_7">
+                            <div class="img_wrap">
+                                <img src="img/slide_07.jpg" alt="백조의 호수">
+                            </div> <!-- /img_wrap -->
+
+                            <div class="text_wrap">
+                                <div class="text_info">
+                                    <div class="text_tit">
+                                        <h4>백조의 호수</h4>
+                                        <span></span>
+                                    </div> <!-- /text_tit -->
+    
+                                    <div class="text_bottom">
+                                        <span>예술의전당 오페라극장</span>
+                                        <p>2023.10.12 - 10.16</p>
+                                    </div> <!-- /text_bottom -->
+                                </div> <!-- /text_info -->
+                            </div> <!-- /text_wrap -->
+                        </div> <!-- /slide_7 -->
+
+                        <div class="slide slide_8">
+                            <div class="img_wrap">
+                                <img src="img/slide_08.jpg" alt="허난설헌">
+                            </div> <!-- /img_wrap -->
+
+                            <div class="text_wrap">
+                                <div class="text_info">
+                                    <div class="text_tit">
+                                        <h4>허난설헌</h4>
+                                        <span></span>
+                                    </div> <!-- /text_tit -->
+    
+                                    <div class="text_bottom">
+                                        <span>예술의전당 토월극장</span>
+                                        <p>2023.06.28 - 06.29</p>
+                                    </div> <!-- /text_bottom -->
+                                </div> <!-- /text_info -->
+                            </div> <!-- /text_wrap -->
+                        </div> <!-- /slide_8 -->
+
+                        <div class="slide slide_9">
+                            <div class="img_wrap">
+                                <img src="img/slide_09.jpg" alt="안나 카레니나">
+                            </div> <!-- /img_wrap -->
+
+                            <div class="text_wrap">
+                                <div class="text_info">
+                                    <div class="text_tit">
+                                        <h4>안나 카레니나</h4>
+                                        <span></span>
+                                    </div> <!-- /text_tit -->
+    
+                                    <div class="text_bottom">
+                                        <span>예술의전당 오페라극장</span>
+                                        <p>2023.04.22 - 04.26</p>
+                                    </div> <!-- /text_bottom -->
+                                </div> <!-- /text_info -->
+                            </div> <!-- /text_wrap -->
+                        </div> <!-- /slide_9 -->
+                    </div> <!-- /perfo_slide -->
+
+                    <div class="per_txt"><i class="fas fa-angle-up"></i> 관심있는 작품은 ♡를 눌러주세요!</div>
+                </div> <!-- /container -->
+            </section> <!-- /performance -->
+
+            <section class="notice">
+                <div class="container">
+                    <div class="title animate"
+                        data-animate="fadeIn"
+                        data-duration="1s"
+                        >
+                        <h2 class="noto">공지사항</h2>
+                        <span class="noto">Notice</span>
+                    </div> <!-- /title -->
+                </div>
+                    
+                <div class="notice_wrap">
+                    <div class="container">
+                        <div class="notice_inner">
+                            <div class="accordion">
+                                <div class="aco_right">
+                                    <div class="num">01</div>
+                                    <span>2023-06-27</span>
+                                </div> <!-- /aco_right -->
+                                <div class="aco_left">
+                                    국립발레단 &lt;트리플 빌&gt; & &lt;해설이 있는 전막발레 해적&gt; 티켓 오픈 안내
+                                </div> <!-- /aco_left -->
+                            </div> <!-- /accordion -->
+                            <div class="panel">
+                                <span>[ 해설이 있는 전막발레 해적> 릴레이 할인 50% ]</span>
+                                <p>8.25(금)~8.27(일) '트리플 빌' 공연 관람 후 '해설이 있는 전막발레 해적' 공연 관람 시 50% 할인 ( 1인 4매 ) 제한<br>
+                                    티켓 수령시 '트리플 빌' 공연 티켓 증빙<br>
+                                    '트리플 빌' 8.25(금)~8.27(일) 금 19:30 토 14:00 & 19:00 일 14:00 / 3일 4회 ···
+                                </p>
+                            </div> <!-- /panel -->
+
+                            <div class="accordion">
+                                <div class="aco_right">
+                                    <div class="num">02</div>
+                                    <span>2023-06-21</span>
+                                </div> <!-- /aco_right -->
+                                <div class="aco_left">
+                                    (재)국립발레단 정규직 채용 최종합격자 공고
+                                </div> <!-- /aco_left -->
+                            </div> <!-- /accordion -->
+                            <div class="panel">
+                                <span>[ (재)국립발레단 정규직 채용 최종합격자 공고 ]</span>
+                                <p>(재)국립발레단 2023년 정규직 직원 채용에 응모해주신 모든 분들께 진심으로 감사드리며, 최종 합격자를 다음과 같이 공지합니다.
+                                    최종합격자의 임용포기, 결격사유<br>
+                                    등으로 임용이 취소되어 결원이 발생할 경우, 합격자 발표일로부터 3개월 이내 예비합격자(차점자)를 채용할 수 있습니다.
+                                </p>
+                            </div> <!-- /panel -->
+
+                            <div class="accordion">
+                                <div class="aco_right">
+                                    <div class="num">03</div>
+                                    <span>2023-06-08</span>
+                                </div> <!-- /aco_right -->
+                                <div class="aco_left">
+                                    국립발레단 세종, 익산 지역공연 &lt;지젤&gt; 전체 캐스팅 안내
+                                </div> <!-- /aco_left -->
+                            </div> <!-- /accordion -->
+                            <div class="panel">
+                                <span>[ 국립발레단 세종, 익산 지역공연 <지젤> 전체 캐스팅 ]</span>
+                                <p>6/16(금) 19:30 세종예술의전당<br>
+                                    지젤역 - 박예은 / 알브레히트역 - 이재우<br>
+                                    미르타 - 정은영 / 힐라리온 - 송정빈<br>
+                                    패전트 파드되 - 곽하경, 양준영 / 두 윌리 - 조연재, 곽화경
+                                </p>
+                            </div> <!-- /panel -->
+
+                            <div class="accordion">
+                                <div class="aco_right">
+                                    <div class="num">04</div>
+                                    <span>2023-06-01</span>
+                                </div> <!-- /aco_right -->
+                                <div class="aco_left">
+                                    국립발레단 &lt; KNB Movement Series 8 &gt; 고객만족도 조사 안내
+                                </div> <!-- /aco_left -->
+                            </div> <!-- /accordion -->
+                            <div class="panel">
+                                <span>[ 국립발레단 고객만족도 조사 ]</span>
+                                <p>국립발레단은 보다 나은 공연과 서비스를 제공하고자 고객만족도 조사를 시행하고 있습니다. 여러분께서 주시는 귀한 의견은 국립발레단의 발전을 위한 귀중한<br>
+                                밑거름이 될 것입니다. 많은 참여 부탁드립니다. 감사합니다.
+                                </p>
+                            </div> <!-- /panel -->
+                        </div> <!-- /notice_inner -->
+                    </div> <!-- /container -->
+                </div> <!-- .notice_wrap end -->
+            </section> <!-- /notice -->
+
+
+            <!-- 텍스트애니 -->
+            <div class="text_main">
+                <div class="cover cover1">
+                    <div class="first-parallel"></div>
+                </div> <!-- .cover end -->
+
+                <section class="newsletter">
+                        <div class="scroll">
+                            <!-- 스크롤 일러 -->
+                            <div class="scroll-downs">
+                                <span>Scroll</span>
+                                <div class="mousey">
+                                    <div class="scroller"></div>
+                                </div>
+                            </div> <!-- /scroll -->
+                        </div> <!-- /scroll -->
+
+                        <div class="news_inner">
+                            <div class="video">
+                                <video autoplay loop muted controls src="img/KNB Talkshow.mp4"></video>
+                            </div> <!-- /video -->
+        
+                            <div class="right_txt">
+                                <div class="title animate"
+                                data-animate="fadeIn"
+                                data-duration="1s"
+                                >
+                                <h2 class="noto">뉴스레터</h2>
+                                <span class="noto">NewsLetter</span>
+                                </div> <!-- /title -->
+    
+                                <div class="more_btn line_f">
+                                    <a href="#">MORE
+                                    <i class="fas fa-plus"></i></a>
+                                </div> <!-- /more_btn -->
+        
+                                <div class="bottom_text">
+                                    <span class="animate"
+                                    data-animate="flipInX"
+                                    data-duration="1s">KNB</span>
+                                    <i class="animate"
+                                    data-animate="flipInX"
+                                    data-duration="1s"
+                                    data-delay="0.2s">TalkShow</i>
+                                    <p class="animate"
+                                    data-animate="flipInX"
+                                    data-duration="1s"
+                                    data-delay="0.3s"><span>단원 </span>이하연</p>
+                                </div> <!-- /bottom_text -->
+                            </div> <!-- /right_txt -->
+                        </div> <!-- /news_inner -->
+                </section> <!-- /newsletter -->
+
+                <div class="cover cover2">
+                    <div class="second-parallel"></div>
+                </div>
+            </div> <!-- .text_main -->
+
+            <section class="news_subscribe" id="news">
+                <section class="sj_panorama">
+                    <article class="pano_cont">
+                        <div class="text_area nesw_btn">
+
+                            <!-- 구독버튼 -->
+                            <div class="container">
+                                <div class="subscribe">
+                                    <div class="sub_btn animate"
+                                    data-animate="bounceIn"
+                                    data-duration="1s">
+                                            <div class="circle_txt">
+                                                <div class="click">Click!!<br>
+                                                    <i class="fas fa-angle-down"></i> </div>
+                                                <img src="img/news_sub_circle.png" alt="circle">
+                                                <div class="sub_text">
+                                                    <div>국립발레단</div>
+                                                    <div><span>N</span>ews <span>L</span>etter</div>
+                                                    <div>구독신청</div>
+                                                </div> <!-- /sub_text -->
+                                            </div> <!-- /circle_txt -->
+                                    </div> <!-- /sub_btn -->
+            
+                                    <div class="sub_application">
+                                        <form action="#">
+                                            <div class="appli_btn">
+                                                <div>
+                                                    <label for="name"></label>
+                                                    <input type="text" id="name" class="n_box" maxlength="7" placeholder="NAME">
+                                                </div>
+                
+                                                <div>
+                                                    <label for="email"></label>
+                                                <input type="text" id="email" class="e_box" placeholder="EMAIL">
+                                                </div>
+                
+                                                <div>
+                                                    <label for="hp"></label>
+                                                <input type="text" id="hp" class="h_box" placeholder="휴대폰번호(숫자만)">
+                                                </div>
+                                            </div> <!-- /appli_btn -->
+
+                                            <a href="#" class="sub_button">
+                                                <span class="click">Click! <i class="fas fa-angle-down"></i></span>
+                                                Subscribe</a>
+                                        </form>
+                                    </div> <!-- /sub_application -->
+                                </div> <!-- /subscribe -->
+                            </div> <!-- /container -->
+
+                        </div> <!-- /text_area /nesw_btn -->
+
+                        <div class="pano_wrap"> <!-- 파노라마 -->
+                            <ul class="list"> <!-- ✔ ul을 복사해서 무한으로 이미지 나오게 할 계획 -->
+                                <li>
+                                    <figure><img src="img/sj_01.jpg" alt="이미지"></figure>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <img src="img/sj_02.jpg" alt="이미지">
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <img src="img/sj_03.jpg" alt="이미지">
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <img src="img/sj_04.jpg" alt="이미지">
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <img src="img/sj_05.jpg" alt="이미지">
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <img src="img/sj_06.jpg" alt="이미지">
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <img src="img/sj_07.jpg" alt="이미지">
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <img src="img/sj_08.jpg" alt="이미지">
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <img src="img/sj_09.jpg" alt="이미지">
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <img src="img/sj_10.jpg" alt="이미지">
+                                    </figure>
+                                </li>
+                            </ul>
+                        </div> <!-- /pano_wrap -->
+                        
+                        <div class="controls">
+                            <a href="#" class="play_on active">
+                                <i class="far fa-play-circle play"><em>재생</em></i>
+                                <i class="fas fa-pause-circle pause"><em>정지</em></i>
+                            </a>
+                        </div> <!-- /controls -->
+                    </article>
+                </section> <!-- /sj_panorama -->
+
+            </section> <!-- /news_subscribe -->
+
+            <section class="people" id="people">
+                <div class="container">
+                        <div class="title_wrap">
+                            <div class="title animate"
+                            data-animate="fadeIn"
+                            data-duration="1s"
+                            >
+                            <h2 class="noto">발레단사람들</h2>
+                            <span class="noto">People</span>
+                            </div> <!-- /title -->
+
+                                <div class="nav_buttons">
+                                    <!-- 배경색 바꾸기 -->
+                                    <span class="click">Click! -></span>
+                                    <i class="ri-moon-clear-line change-thema" id="thema-button"></i>
+                                </div> <!-- /nav_buttons -->
+                        </div> <!-- /title_wrap -->
+
+                    <div class="tab">
+                        <div class="first_tab_wrap">
+                            <button class="tablink">수석무용수</button>
+                        </div> <!-- /first_tab_wrap -->
+                        <div class="suv_tab_wrap">
+                            <button class="tablink" id="defaultOpen" onclick="member('solist',this,'rgb(255, 102, 0)')">솔리스트</button>
+                            <button class="tablink" onclick="member('demisolist',this,'rgb(255, 102, 0)')">드미솔리스트</button>
+                            <button class="tablink" onclick="member('coreballet',this,'rgb(255, 102, 0)')">코르드발레</button>
+                        </div> <!-- /suv_tab_wrap -->
+                    </div> <!-- /tab -->
+
+                    <div class="peo_wrap">
+                        <div class="first_dancer animate"
+                        data-animate="fadeIn"
+                        data-duration="2s">
+                            <div class="first_dancer_wrap">
+                                <div id="slidePhoto">
+                                    <div id="slidePhotos">
+                                        <div class="photo"></div>
+                                        <div class="photo"></div>
+                                        <div class="photo"></div>
+                                        <div class="photo"></div>
+                                    </div> <!-- /#slidePhotos -->
+                                    <div id="view">
+                                        <h1>Top</h1>
+                                    </div> <!-- /#view -->
+                                </div> <!-- /#slidePhoto -->
+                            
+                                <div id="one">
+                                    <div id="eff">
+                                        <div class="stext" id="chainn">
+                                            <h3>박예은</h3>
+                                            <p>Park Yeeun</p>
+                                        </div>
+                                        <div class="line">
+                                            <div class="hrline"></div>
+                                        </div>
+                                        <div class="stext" id="aty">
+                                            <h3>이재우</h3>
+                                            <p>Lee Jeawoo</p>
+                                        </div>
+                                        <div class="line">
+                                            <div class="hrline"></div>
+                                        </div>
+                                        <div class="stext" id="mic">
+                                            <h3>김리회</h3>
+                                            <p>Kim Lihoe</p>
+                                        </div>
+                                        <div class="line">
+                                            <div class="hrline"></div>
+                                        </div>
+                                        <div class="stext" id="tapso">
+                                            <h3>허서명</h3>
+                                            <p>Heo Seomyeong</p>
+                                        </div>
+                                        <div class="line">
+                                            <div class="hrline"></div>
+                                        </div>
+                                    </div>
+                                </div><!-- /one -->
+                            </div> <!-- /first_dancer_wrap-->
+                        </div> <!-- /first_dancer -->
+
+                        <div class="second_dancer">
+                            <div class="solist">
+                                <div id="solist" class="tabcontent">
+                                    <div class="soli_top animate"
+                                    data-animate="fadeInUp"
+                                    data-duration="0.5s">
+                                        <div>
+                                            <img src="https://korean-national-ballet.kr/upload/staff/picture/103/ec8baced9884ed9dac5f53696d204879756e686565.jpg?w=490" alt="심현희 발레리나">
+                                            <h3>심현희</h3>
+                                            <span>Sim Hyunhee</span>
+                                        </div>
+                                        <div>
+                                            <img src="https://korean-national-ballet.kr/upload/staff/picture/93/eab3bded9994eab2bd5f4b77616b204877616b79756e67.jpg?w=490" alt="곽현희 발레리나">
+                                            <h3>곽화경</h3>
+                                            <span>Kwak Hwakyung</span>
+                                        </div>
+                                        <div>
+                                            <img src="https://korean-national-ballet.kr/upload/staff/picture/59/ec86a1eca095ebb9885f536f6e67204a756e6762696e.jpg?w=490" alt="송정빈 발레리노">
+                                            <h3>송정빈</h3>
+                                            <span>Song Jungbin</span>
+                                        </div>
+                                        <div>
+                                            <img src="https://korean-national-ballet.kr/upload/staff/picture/70/eab095ed9aa8ed98955f4b616e672048796f6879756e67.jpg?w=490" alt="강효형 발레리노">
+                                            <h3>강효형</h3>
+                                            <span>Kang Hyohyung</span>
+                                        </div>
+                                    </div> <!-- /soli_top -->
+
+                                    <div class="soli_bottom animate"
+                                    data-animate="fadeInUp"
+                                    data-duration="0.7s">
+                                        <div>
+                                            <img src="https://korean-national-ballet.kr/upload/staff/picture/88/eab980ebaa85eab79c415f4b696d204d79756e676b7975.jpg?w=490" alt="김명규 발레리노">
+                                            <h3>김명규</h3>
+                                            <span>Kim Myungkyu</span>
+                                        </div>
+                                        <div>
+                                            <img src="https://korean-national-ballet.kr/upload/staff/picture/65/ed959ceb8298eb9e985f48616e204e61726561.jpg?w=490" alt="한나래 발레리나">
+                                            <h3>한나래</h3>
+                                            <span>Han Narea</span>
+                                        </div>
+                                        <div>
+                                            <img src="https://korean-national-ballet.kr/upload/staff/picture/82/ec9db4ec9ca0ed998d5f4c656520596f6f686f6e67.jpg?w=490" alt="이유홍 발레리노">
+                                            <h3>이유홍</h3>
+                                            <span>Lee Yoohong</span>
+                                        </div>
+                                        <div>
+                                            <img src="https://korean-national-ballet.kr/upload/staff/picture/58/ec9db4ec8898ed9dac5f4c656520536f6f686565.jpg?w=490" alt="이수희 발레리노">
+                                            <h3>이수희</h3>
+                                            <span>Lee Soohee</span>
+                                        </div>
+                                    </div> <!-- /soli_bottom -->
+                                </div> <!-- /#Paris -->
+                            </div> <!-- /solist -->
+
+                            <div class="demi_solist">
+                                <div id="demisolist" class="tabcontent">
+                                    <div class="soli_top animate"
+                                    data-animate="fadeInUp"
+                                    data-duration="0.5s">
+                                        <div>
+                                            <img src="https://korean-national-ballet.kr/upload/staff/picture/110/eab980eca780ed98845f4b696d204a696879656f6e.jpg?w=490" alt="김지현 발레리나">
+                                            <h3>김지현</h3>
+                                            <span>Kim Jihyeon</span>
+                                        </div>
+                                        <div>
+                                            <img src="https://korean-national-ballet.kr/upload/staff/picture/116/ec8bacec868cec97b05f5368696d20536f79656f6e.jpg?w=490" alt="심소연 발레리나">
+                                            <h3>심소연</h3>
+                                            <span>Shim Soyeon</span>
+                                        </div>
+                                        <div>
+                                            <img src="https://korean-national-ballet.kr/upload/staff/picture/663/eab980eca480eab2bd5f4b696d204a756e6b796f756e67.jpg?w=490" alt="김준경 발레리노">
+                                            <h3>김준경</h3>
+                                            <span>Kim Junkyoung</span>
+                                        </div>
+                                        <div>
+                                            <img src="https://korean-national-ballet.kr/upload/staff/picture/601/382e20eca1b0ec97b0ec9eac5f43686f2059656f6e6a6165.jpg?w=490" alt="조연재 발레리나">
+                                            <h3>조연재</h3>
+                                            <span>Cho Yeonjae</span>
+                                        </div>
+                                    </div> <!-- /soli_top -->
+
+                                    <div class="soli_bottom animate"
+                                    data-animate="fadeInUp"
+                                    data-duration="0.7s">
+                                        <div>
+                                            <img src="https://korean-national-ballet.kr/upload/staff/picture/104/eab980ed839cec849d5f4b696d2054616573656f6b.jpg?w=490" alt="김태석 발레리노">
+                                            <h3>김태석</h3>
+                                            <span>Kim Taeseok</span>
+                                        </div>
+                                        <div>
+                                            <img src="https://korean-national-ballet.kr/upload/staff/picture/73/ec84a0ed98b8ed98845f53756e20486f6879756e.jpg?w=490" alt="선호현 발레리노">
+                                            <h3>선호현</h3>
+                                            <span>Sun Hohyun</span>
+                                        </div>
+                                        <div>
+                                            <img src="https://korean-national-ballet.kr/upload/staff/picture/101/eab980eab8b0eba0b95f4b696d204b697279656f6e67.jpg?w=490" alt="김기령 발레리나">
+                                            <h3>김기령</h3>
+                                            <span>Kim Kiryeong</span>
+                                        </div>
+                                        <div>
+                                            <img src="https://korean-national-ballet.kr/upload/staff/picture/90/eab980eab2bdeba6bc5f4b696d204b796f756e6772696d.jpg?w=490" alt="김경림 발레리나">
+                                            <h3>김경림</h3>
+                                            <span>Kim Kyoungrim</span>
+                                        </div>
+                                    </div> <!-- /soli_bottom -->
+                                </div> <!-- /#Paris -->
+                            </div> <!-- /demi_solist -->
+
+                            <div class="cord_ballet">
+                                <div id="coreballet" class="tabcontent">
+                                    <div class="soli_top animate"
+                                    data-animate="fadeInUp"
+                                    data-duration="0.5s">
+                                        <div>
+                                            <img src="https://korean-national-ballet.kr/upload/staff/picture/98/eab980eb8298ec97b05f4b696d204e6179656f6e2031.jpg?w=490" alt="김나연 발레리나">
+                                            <h3>김나연</h3>
+                                            <span>Kim Nayeon</span>
+                                        </div>
+                                        <div>
+                                            <img src="https://korean-national-ballet.kr/upload/staff/picture/92/eab3a0ed989ceb82985f4b6f2048656e61.jpg?w=490" alt="고혜나 발레리나">
+                                            <h3>고혜나</h3>
+                                            <span>Ko Hena</span>
+                                        </div>
+                                        <div>
+                                            <img src="https://korean-national-ballet.kr/upload/staff/picture/97/ec9db4ec9d80ec849c5f4c65652045756e73656f.jpg?w=490" alt="이은서 발레리나">
+                                            <h3>이은서</h3>
+                                            <span>Lee Eunseo</span>
+                                        </div>
+                                        <div>
+                                            <img src="https://korean-national-ballet.kr/upload/staff/picture/100/eab095eb8f99ed9c985f4b616e6720446f6e676875692031.jpg?w=490" alt="강동휘 발레리노">
+                                            <h3>강동휘</h3>
+                                            <span>Kang Donghui</span>
+                                        </div>
+                                    </div> <!-- /soli_top -->
+
+                                    <div class="soli_bottom animate"
+                                    data-animate="fadeInUp"
+                                    data-duration="0.7s">
+                                        <div>
+                                            <img src="https://korean-national-ballet.kr/upload/staff/picture/105/eab8b0ec8898eca7805f4b692053756a69.jpg?w=490" alt="기수지 발레리나">
+                                            <h3>기수지</h3>
+                                            <span>Ki Suji</span>
+                                        </div>
+                                        <div>
+                                            <img src="https://korean-national-ballet.kr/upload/staff/picture/124/ecb29ceca095ebafbc5f4368656f6e204a656f6e676d696e.jpg?w=490" alt="천정민 발레리나">
+                                            <h3>천정민</h3>
+                                            <span>Cheon Jeongmin</span>
+                                        </div>
+                                        <div>
+                                            <img src="https://korean-national-ballet.kr/upload/staff/picture/599/ec9784eb8298ec9ca45f456f6d204e6179756e.jpg?w=490" alt="엄나윤 발레리나">
+                                            <h3>엄나윤</h3>
+                                            <span>Eom Nayun</span>
+                                        </div>
+                                        <div>
+                                            <img src="https://korean-national-ballet.kr/upload/staff/picture/592/eab3bdeb8f99ed98845f4b77616b20446f6e676879656f6e.jpg?w=490" alt="곽동현 발레리노">
+                                            <h3>곽동현</h3>
+                                            <span>Kwak Donghyeon</span>
+                                        </div>
+                                    </div> <!-- /soli_bottom -->
+                                </div> <!-- /#Paris -->
+                            </div> <!-- /cord_ballet -->
+                        </div> <!-- /second_dancer -->
+                    </div> <!-- /peo_wrap -->
+
+
+                </div> <!-- /container -->
+            </section> <!-- /people -->
+
+            <section class="perfo_sticky">
+                <!-- <div class="container"> -->
+
+                    <div class="fix_motion">
+                        <article class="fix_wrap container clearfix">
+
+                            <div class="text_box">
+                                <figure class="text01">
+                                    <img src="img/st_gisel_01.jpg" alt="지젤">
+                                </figure>
+                                <figure class="text02">
+                                    <img src="img/st_gisel_02.jpg" alt="지젤">
+                                </figure>
+                                <figure class="text03">
+                                    <img src="img/st_gisel_04.jpg" alt="지젤">
+                                </figure>
+                                <figure class="text04">
+                                    <video autoplay loop muted src="img/gisell_perfo.mp4"></video>
+                                </figure>
+                            </div> <!-- /text_box -->
+            
+                            <div class="device_box animate"
+                            data-animate="fadeIn"
+                            data-duration="1s">
+                                <div class="watch_img">
+                                    <div class="loader slide_wrap">
+                                        <div class="slide clearfix">
+                                            <figure class="loader_tom">
+                                                <img src="img/s_shh.png" alt="심현희">
+                                            </figure>
+                                            <figure class="loader_tom">
+                                                <img src="img/s_pjs.jpg" alt="박종석">
+                                            </figure>
+                                            <figure class="loader_tom">
+                                                <img src="img/s_krh.jpg" alt="김리회">
+                                            </figure>
+                                            <figure class="loader_tom">
+                                                <img src="img/s_hsm.jpg" alt="허서명">
+                                            </figure>
+                                        </div> <!-- /slide -->
+                                    </div> <!-- /loader -->
+                                    <div class="ro">
+                                            <div class="loader_tom2">
+                                                <!-- border animation -->
+                                            </div>
+                                            <div class="loader_tom2 lt2">
+                                                <!-- border animation -->
+                                            </div>
+                                    </div> <!-- /ro -->
+                                    
+                                    <div class="text_wrap">
+                                        <div class="title">
+                                            <figure>
+                                                <img src="img/giselle_title.png" alt="지젤 타이틀">
+                                            </figure>
+                                            <span>
+                                                죽음을 초월한 진실한 사랑.<br>
+                                                아돌프 아당의 선율을 따라 펼쳐지는<br>
+                                                슬프고도 아름다운 낭만발레의 정수
+                                            </span>
+                                            <p class="noto">1841년 파리 오페라극장에서 초연된 &lt;지젤&gt;은<br>
+                                                현재까지 전 세계적인 사랑을 받고 있는 낭만 발레의 대표작이다.<br><br>
+                                                특히 지젤과 알브레히트의 애절한 파드되와<br>
+                                                순백의 로맨틱 튀튀를 입은 사랑에 배신당한 윌리들이 선사하는<br>
+                                                황홀한 발레블랑의 무대는 관객들에게 깊은 감동을 준다.</p>
+                                        </div><!-- /title -->
+                                    </div> <!-- /text_wrap -->
+
+                                </div> <!-- /watch_img -->
+                            </div> <!-- /device_box -->
+                        </article>
+                    </div> <!-- /fix_motion -->
+
+                <!-- </div> /container -->
+            </section> <!-- /perfo_sticky -->
+
+            <section class="perfo_sticky perfo_sticky2">
+                    <div class="fix_motion">
+                        <article class="fix_wrap container clearfix">
+
+                            <div class="device_box  animate"
+                            data-animate="fadeInUp"
+                            data-duration="1s">
+                                <div class="watch_img">
+
+                                    <div id="particles-js"></div> <!-- 파티클 -->
+                                    
+                                    <div class="text_wrap">
+                                        <div class="title">
+                                            <figure>
+                                                <img src="img/Swan_title.png" alt="스완 타이틀">
+                                            </figure>
+                                            <span>
+                                                세기를 넘어 전 세계가 사랑하는 클래식 발레의 정수<br>
+                                                지상에서 가장 아름다운 발레<br>
+                                                백조의호수
+                                            </span>
+                                            <p class="noto">마법에 빠져 낮에는 백조, 밤에는 사람이 되는 공주 오데트<br>
+                                                현재까지 전 세계적인 사랑을 받고 있는 낭만 발레의 대표작이다.<br>
+                                                그녀에게 매혹된 왕자 지그프리드<br>
+                                                그녀의 마법을 풀어주기 위해 오데트에게 영원한 사랑을 약속하지만<br>
+                                                악마 로트바르트가 두 사람을 떼어 놓으려고 한다.<br>
+                                                오데트와 지그프리드는 로트바르트와 힘겨운 싸움을 시작하는데...
+                                            </p>
+                                        </div><!-- /title -->
+                                    </div> <!-- /text_wrap -->
+
+                                </div> <!-- /watch_img -->
+                            </div> <!-- /device_box -->
+                            
+                            <div class="text_box">
+                                <figure class="text01">
+                                    <img src="img/st_swan_01.jpg" alt="백조의호수">
+                                </figure>
+                                <figure class="text02">
+                                    <img src="img/st_swan_02.jpg" alt="백조의호수">
+                                </figure>
+                                <figure class="text03">
+                                    <img src="img/st_swan_03.jpg" alt="백조의호수">
+                                </figure>
+                                <figure class="text04">
+                                    <video autoplay loop muted src="img/swanlake.mp4"></video>
+                                </figure>
+                            </div> <!-- /text_box -->
+
+                        </article>
+                    </div> <!-- /fix_motion -->
+
+            </section> <!-- /perfo_sticky2 -->
+
+            <section class="review">
+                <div class="container">
+                    <div class="rev_bg">
+                        <img src="img/ribbon.png" alt="배경">
+                    </div> <!-- /rev_bg -->
+                    <div class="title_wrap">
+                            <div class="title animate"
+                            data-animate="fadeIn"
+                            data-duration="1s"
+                            >
+                            <h2 class="noto">관람후기</h2>
+                            <span>Review</span>
+                            </div> <!-- /title -->
+                    </div> <!-- /title_wrap -->
+
+                    <div class="s_wrap animate"
+                    data-animate="fadeInUp"
+                    data-duration="1s">
+                        <div class="container">
+                            <!-- Swiper -->
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="s_slide">
+                                            <p class="noto">
+                                                주인공 지젤과 알브레히트인 연재리나, 동현리노<br>
+                                                첫 등장부터 진짜 너무 잘 어울리는 한쌍..<br>
+                                                사랑에 빠지는 그 연기가 너무 현실커플의 모습같아서<br>
+                                                정말 사랑스럽고 귀여웠어요!
+                                            </p>
+                                            <span class="noto">28세, mingvely님 (인터파크)</span>
+                                        </div> <!-- /s_slide -->
+                                        <div class="s_img">
+                                            <img src="img/Ballerina1.png" alt="발레리나">
+                                        </div>
+                                    </div> <!-- /swiper-slide -->
+                                    <div class="swiper-slide">
+                                        <div class="s_slide">
+                                            <p class="noto">
+                                                이렇게 멋진 날에<br>
+                                                백조의호수 를 볼 수 있어서 좋았다.<br>
+                                                심장 터지는 줄 알았다.<br>
+                                                죽기 전에 잘했다고 기억할 만한 일이다.
+                                            </p>
+                                            <span class="noto">35세, ddd_fill님 (인터파크)</span>
+                                        </div> <!-- /s_slide -->
+                                        <div class="s_img">
+                                            <img src="img/Ballerina2.png" alt="발레리나">
+                                        </div>
+                                    </div> <!-- /swiper-slide -->
+                                    <div class="swiper-slide">
+                                        <div class="s_slide">
+                                            <p class="noto">
+                                                정말 이상적인 꿈 속에서 젊어진 돈키호테는<br>
+                                                둘시네아를 만나 아름답게 춤을 춘다.<br>
+                                                재우리노와 은영리나의 키차이가 <br>
+                                                알맞게 어울린다는 느낌이라 좋았다.
+                                            </p>
+                                            <span class="noto">32세, balletties님 (yes24)</span>
+                                        </div> <!-- /s_slide -->
+                                        <div class="s_img">
+                                            <img src="img/Ballerina3.png" alt="지젤타이틀">
+                                        </div>
+                                    </div> <!-- /swiper-slide -->
+                                    <div class="swiper-slide">
+                                        <div class="s_slide">
+                                            <p class="noto">
+                                                새롭게 각색된 안무와 함께<br>
+                                                오랜만에 만나볼 수 있었던 해적<br>
+                                                정말 경이로운 아름다움을 느낄 수 있었던<br>
+                                                순간들이였습니다.<br>
+                                                해적을 좀 더 자주 만날 수 있으면 좋을 것 같아요
+                                            </p>
+                                            <span class="noto">40세, orange__mim님 (yes24)</span>
+                                        </div> <!-- /s_slide -->
+                                        <div class="s_img">
+                                            <img src="img/Ballerina4.png" alt="지젤타이틀">
+                                        </div>
+                                    </div> <!-- /swiper-slide -->
+                                    <div class="swiper-slide">
+                                        <div class="s_slide">
+                                            <p class="noto">
+                                                호두까기 인형 발레를 처음 본 건데<br>
+                                                이런 내용이었나 싶을 정도로 새로웠다.<br>
+                                                공연내내 완전히 새로운 세계에 온듯 했다.<br>
+                                                현실과 차단된 느낌이 정말 오랜만이라<br>
+                                                나에게 주는 선물과 같은 느낌이었다.
+                                            </p>
+                                            <span class="noto">22세, _tiger님 (인터파크)</span>
+                                        </div> <!-- /s_slide -->
+                                        <div class="s_img">
+                                            <img src="img/Ballerina5.png" alt="지젤타이틀">
+                                        </div>
+                                    </div> <!-- /swiper-slide -->
+                                </div> <!-- /swiper-wrapper -->
+                                <div class="swiper-pagination"></div>
+                            </div> <!-- /swiper mySwiper -->
+                        </div> <!-- /container -->
+                    </div> <!-- /s_wrap -->
+
+                </div> <!-- /container -->
+            </section> <!-- /review -->
+
+    </main>
+
+    <footer>
+        <div class="footer_wrap">
+            <div class="footer_top noto">
+                KOREA&nbsp;NATIONAL&nbsp;BALLET
+            </div> <!-- /footer_top -->
+
+            <div class="footer_middle">
+                <div class="top">
+                    <div class="t_left">
+                        <ul>
+                            <li>
+                                <span>Adress</span>
+                                <p>서울시 서초구 남부순환로 2406 예술의전당 오페라하우스 4층 (재)국립발레단 (우 06757)</p>
+                            </li>
+                            <li>
+                                <span>Tel</span>
+                                <p>국립발레단 Tel. 02-587-6180~5        아카데미 Tel. 02-587-6199</p>
+                            </li>
+                            <li>
+                                <span>Fax</span>
+                                <p>02-587-6186</p>
+                            </li>
+                            <li>
+                                <span>Email</span>
+                                <p>kballet@knballet.kr</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="t_right">
+                        <span class="t_tit">청탁금지법 적용대상 기관안내</span>
+                        <p>
+                            (재)국립발레단은 공직자윤리법 제3조의2에 따른  공직유관단체로서<br>
+                            부정청탁 및 금품 등 수수의 금지에 관한 법률(청탁금지법)<br>
+                            적용대상 기관임을 알립니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="bot">
+                    <span>개인정보 처리방침</span>
+                    <p>Copyrightⓒ KOREAN NATIONAL BALLET 2017</p>
+                </div>
+            </div> <!-- /footer_middle -->
+            <div class="footer_bottom">
+                <img src="img/b_1.png" alt="협찬사">
+                <img src="img/b_2.png" alt="협찬사">
+                <img src="img/b_4.png" alt="협찬사">
+                <img src="img/b_5.png" alt="협찬사">
+                <!-- <img src="img/b_6.png" alt="협찬사"> -->
+                <img src="img/b_7.png" alt="협찬사">
+                <img src="img/b_8.png" alt="협찬사">
+                <img src="img/b_9.png" alt="협찬사">
+            </div>
+        </div> <!-- /footer_wrap -->
+    </footer>
+
+
+
+    <!-- scrollup button -->
+    <a href="#" class="scrollup noto" id="scrollup">
+        <i class="ri-arrow-up-s-line"></i><br>
+        <span>Top</span>
+    </a>
+
+    <!-- 구독버튼 layer pop-up -->
+    <div id="layer">
+        <img src="img/newsletter.jpg" alt="뉴스레터 구독">
+        <a href="#" class="close"><i class="fas fa-times-circle"></i></a>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-scrolla@0.0.3/dist/js/jquery.scrolla.min.js"></script>
+
+    
+
+    <script src="js/particles.js"></script> <!-- 파티클 github usage 복붙 -->
+    <script src="js/app.js"></script>
+    <script src="js/intro_bg.js"></script>
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>

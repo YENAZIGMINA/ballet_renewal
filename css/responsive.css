@@ -1,0 +1,676 @@
+@charset "UTF-8";
+
+
+/* 반응형 */
+@media (max-width:1600px) {
+    main .introduce .text_wrap .int_text {top: 12.5rem; left: 8rem;}
+    main .introduce .int_wrap .cursor {transform: translateX(-6vw);}
+}
+
+
+@media (max-width:1240px){
+    body.on {height: 13800px !important;}
+    .cookie {display: none; opacity: 0;}
+    .main_wrapper .container {width: 86%; margin: -25px auto;}
+    #loading {display: none;}
+
+    header .h_inner .logo {width: 91px; margin-left: 40px;}
+    header .header .h_inner {height: 82px;}
+    header .h_inner .menu_left ul>li {
+        margin-left: 19px;
+        margin: 0px 15px;
+    }
+    header .h_inner .menu_left ul>li a {font-size: 17px;}
+    header .h_inner .menu_left .depth {top: 83px; width: 92px;}
+    header .h_inner .menu_left .depth li a {font-size: 14px;}
+    header .h_inner .menu_right ul li {margin: 0 6px;}
+    header .h_inner .menu_right ul li a {font-size: 15px;}
+    header .h_inner .menu_right ul li:last-child {width: 84px; height: 38px; margin-right: 30px;}
+
+    .main_wrapper .main_wrap .right_wrap .right_img,
+    .main_wrapper .main_wrap .left_wrap .left_img {width: 40vw;}
+    .r_ornament, .l_ornament {display: none;}
+    main .b_circle {
+        top: -36px; left: 409px;
+        width: 131px; height: 76px;
+    }
+    main .b_circle span {font-size: 25px; line-height: 75px;}
+
+    main .introduce {margin-top: 235px;}
+    main .introduce .container {width: 86%;}
+    main .introduce .int_img canvas {height: 67vh; width: 85vw;}
+    main .introduce .int_wrap .cursor {transform: translateX(-12vw); width: 17px; height: 17px;}
+    main .introduce .int_wrap .cursor.active {width: 70px; height: 70px;}
+    main .introduce .hero_gallery_figure img {width: 275px;}
+    main .introduce .hero_gallery_figure span {font-size: 130px;}
+    main .introduce .move_bg>section {margin-top: -23px;}
+    main .introduce .text_wrap .int_text {top: 12rem; left: 8rem;}
+    main .introduce .text_wrap .int_text p {font-size: 15px; padding: 42px 0; margin-bottom:0;}
+    main .text_wrap .mouse_text {display: none;}
+    main .introduce .text_wrap .int_text {width: 475px;}
+    main .text_wrap .int_text .last_col p {display: none;}
+    main .introduce .plus {left: 167px;}
+    main .introduce .plus a {font-size: 20px;}
+
+    main .line {height: 10vh;}
+
+    main #academy .container {width: 1240px; margin: 0 auto;}
+    main .academy .title {margin-left: -55px;}
+    main .application_wrap {width: 47%; margin-left: 31px;}
+    main .application_wrap .application {height: 645px;}
+    main .img-comp-container {width: 48%;}
+    main .img-comp-img img {height: 645px; width: 550px;}
+    main .application .app_title {font-size: 22px;}
+    main .application .app_sub_title span {font-size: 26px;}
+    main .application form label {width: 125px;}
+    main .application form input.w_box {width: 305px;}
+    main .class_choice::before {width: 307px;}
+    main .application form .class_choice .radio {margin-left: 37px;}
+    main .application form .e_mail #email_front {width: 125px;}
+    main .application form .e_mail #email_back {width: 148px;}
+    main .application form .memo label {transform: translateY(-70px);}
+    main .application form .memo textarea {width: 304px;}
+    main .application .submit a {font-size: 20px;}
+    main .application form {margin-bottom: -16px;}
+    main .application_wrap .click {transform: translateY(26px);}
+
+    main .performance .container {width: 1240px;}
+    main .performance .perfo_top {margin-left: 55px;}
+    main .performance .more_btn a {margin-left: -107px;}
+    main .performance .more_btn::after {right: 125px;}
+    main .performance .perfo_slide {transform: translateX(73px); width: 1096px;}
+    main .performance .perfo_slide .slide .img_wrap img {width: 80%; height: 383px;}
+    main .perfo_slide .slick-prev {left: -43px;}
+    main .perfo_slide .slide .text_wrap .text_info {width: 256px;}
+    main .perfo_slide .text_tit {font-size: 21px;}
+    main .perfo_slide .text_tit span::after {font-size: 23px; top: 0px; right: 6px;}
+    main .perfo_slide .text_bottom span {font-size: 16px;}
+    main .perfo_slide .text_bottom p {font-size: 13px;}
+
+    main .notice .container {width: 1240px;}
+    main .notice .title {margin-left: 55px;}
+
+    main .text_main .newsletter .news_inner .video video {width: 870px;}
+    main .newsletter .right_txt {padding-right: 49px;}
+    main .newsletter .bottom_text {margin-top: 122px;}
+    main .newsletter .bottom_text>span {font-size: 90px;}
+    main .newsletter .bottom_text i {font-size: 50px;}
+    main .newsletter .bottom_text p {font-size: 19px; margin-top: 20px;}
+
+    main .people .container {width: 1240px;}
+    main .first_tab_wrap {width: 39%;}
+    main .people .peo_wrap .first_dancer {width: 40%;}
+    main .second_dancer .tabcontent img {width: 143px;}
+    main .suv_tab_wrap {width: 48.3%;}
+    main .suv_tab_wrap .tablink {padding: 0 27px;}
+    main .nav_buttons {right: 10rem;}
+
+    main .text_box figure img {width: 75%; margin-left: 64px;}
+    main .text_box figure.text04 {margin-left: 30px;}
+    main .text_box video {width: 80%;}
+    main .device_box .text_wrap {width: 66%;}
+    main .device_box .text_wrap .title span {font-size: 20px;}
+    main .loader {display: none;}
+    main .device_box .text_wrap .title p {font-size: 15px;}
+    main .perfo_sticky2 .device_box {left: 9%;}
+    main .perfo_sticky .device_box .text_wrap {margin-left: -32px;}
+    main .perfo_sticky2 .device_box .text_wrap {margin-left: -31px;}
+    main .perfo_sticky2 .text_box figure {margin-left: -98px;}
+    main .perfo_sticky2 .text_box video {margin-left: 63px;}
+
+    main .review .container {width: 1240px;}
+    main .review .title {margin-left: 55px;}
+    main .review .swiper-slide p {font-size: 17px;}
+    main .review .swiper-slide {width: 60%; left: 33%;}
+
+    footer .footer_middle .top span {font-size: 16px;}
+    footer .footer_middle .top p {font-size: 15px;}
+    footer .footer_bottom img {margin-right: 31px; margin-top: -34px; width: 114px;}
+
+    #scrollup {width: 60px; height: 60px;}
+    #scrollup span {font-size: 23px;}
+}
+
+
+@media (max-width:960px){
+    body.on {height: 12800px !important;}
+    header .h_inner .menu_left ul>li {margin: 0 11px;}
+    header .h_inner .menu_left ul>li a {font-size: 15px;}
+    header .h_inner .logo {width: 70px; margin-left: 29px;}
+    header .h_inner .menu_right ul li:last-child a {font-size: 13px;}
+    header .h_inner .menu_right ul li:last-child {margin-right: 21px; width: 70px; height: 35px;}
+    header .h_inner .menu_right ul li a {font-size: 13px;}
+    header .h_inner .menu_left .depth li a {font-size: 13px;}
+    header .h_inner .menu_left .depth {top: 83px; width: 85px; padding: 7px;}
+    .main_wrapper .main_wrap .right_wrap .right_img,
+    .main_wrapper .main_wrap .left_wrap .left_img {width: 38vw;}
+    main .b_circle {top: -28px; left: 20rem; width: 101px; height: 65px;}
+    main .b_circle span {font-size: 21px; line-height: 70px;}
+
+    main .introduce .title h2 {font-size: 35px; margin-right: 10px;}
+    main .introduce .title span {font-size: 30px;}
+    main .introduce {margin-top: 177px;}
+    main .introduce .int_img canvas {height: 58vh;}
+    main .title h2 {font-size: 36px;}
+    main .title span {font-size: 32px;}
+    main .introduce .text_wrap .int_text {
+        width: 458px; 
+        padding: 0 35px; 
+        left: 6rem; top: 11.5rem;
+    }
+    main .introduce .text_wrap .int_text p {font-size: 14px; padding: 42px 0;}
+    main .introduce .plus a {font-size: 17px;}
+    main .introduce .plus {left: 155px;}
+    main .introduce .int_wrap .cursor {transform: translateX(-16vw);}
+    main main .introduce .hero_gallery_figure span {font-size: 110px; margin-right: 10px;}
+    main .introduce .hero_gallery_figure img {width: 235px;}
+    main .line {display: none;}
+
+    main .academy .title h2 {font-size: 35px; margin-right: 10px;}
+    main .academy .title span {font-size: 30px;}
+    main .academy .title {margin-left: -343px;}
+    main .application_wrap {float: none;}
+    main .img-comp-container {float: none; margin-left: 9%; margin-top: 10%;}
+    main .img-comp-img img {height: 700px; width: 700px; border-radius: 30px;}
+    main .application_wrap {width: 64%; margin-left: 70px;}
+    main .application form label {width: 205px;}
+    main .application form input.w_box {width: 438px;}
+    main .class_choice::before {width: 438px;}
+    main .application form .e_mail #email_front {width: 162px;}
+    main .application form .e_mail #email_back {width: 242px;}
+    main .application form .memo textarea {width: 436px;}
+    main .application_wrap .application {height: 675px;}
+    main .application form .class_choice .radio {margin-left: 76px;}
+    main .application_wrap .click {transform: translateY(15px);}
+
+    main .performance .perfo_top h2 {font-size: 35px; margin-right: 10px;}
+    main .performance .title span {font-size: 30px;}
+    main .performance .perfo_slide {width: 782px;}
+    main .performance .perfo_slide .slide .img_wrap img {width: 68%; height: 273px;}
+    main .perfo_slide .slide .img_wrap {width: 277px;}
+    main .perfo_slide .slick-next {right: -34px;}
+    main .perfo_slide .slide .text_wrap .text_info {width: 188px;}
+    main .perfo_slide .text_tit span {display: none;}
+    main .perfo_slide .text_tit h4 {font-size: 19px;}
+    main .perfo_slide .text_bottom span {font-size: 14px;}
+    main .performance .per_txt {display: none;}
+
+    main .notice .title h2 {font-size: 35px; margin-right: 10px;}
+    main .notice .title span {font-size: 30px;}
+    main .notice {margin-top: 125px;}
+    main .notice .container {width: 960px; margin: 0 auto;}
+    main .notice_wrap .notice_inner {padding: 55px 87px 55px 60px;}
+    main .notice_wrap .accordion .aco_left {font-size: 16px; margin-left: 80px;}
+    main .notice_wrap .accordion .aco_right {width: 17%;}
+    main .notice_wrap .accordion .aco_right .num {font-size: 20px;}
+    main .notice_wrap .accordion .aco_right span {font-size: 12px;}
+    main .notice_wrap .panel span {transform: translateX(217px); font-size: 14px;}
+    main .notice_wrap .panel p {transform: translateX(217px); font-size: 12px;}
+
+    main .scroll {display: none;}
+    main .text_main {padding-top: 5vh;}
+    main .text_main .newsletter .news_inner .video video {width: 672px;}
+    main .first-parallel, main .second-parallel {font-size: 40px;}
+    main .newsletter .title h2 {font-size: 35px;}
+    main main .notice .title span {font-size: 30px;}
+    main .newsletter .bottom_text>span {font-size: 65px;}
+    main .newsletter .bottom_text i {font-size: 40px;}
+    main .newsletter .bottom_text p {font-size: 16px;}
+    main .newsletter .bottom_text {margin-top: 71px;}
+
+    main .sj_panorama .controls a {font-size: 53px;}
+    main .subscribe .sub_btn .circle_txt {width: 270px; height: 270px;}
+    main .subscribe .sub_btn .click {font-size: 23px;}
+    main .subscribe .sub_btn .sub_text {top: 87px; left: 62px;}
+    .sub_text div:nth-child(1) {font-size: 22px;}
+    main .sub_text div:nth-child(2) {font-size: 28px;}
+    main .sub_text div:nth-child(3) {font-size: 33px;}
+    main .subscribe .sub_btn .circle_txt img {display: none;}
+    main .subscribe .sub_application form {width: 385px; padding: 30px 40px 30px 74px;}
+    main .subscribe .sub_application {top: 42px; left: -58px;}
+    main .subscribe .sub_application form input {width: 250px;}
+    main .subscribe .sub_application a {font-size: 20px; right: 41px;}
+
+    main .people .title h2 {font-size: 35px; margin-right: 10px;}
+    main .people .title span {font-size: 30px;}
+    main .people .peo_wrap .first_dancer {width: 25%;}
+    main .second_dancer .tabcontent img {width: 115px;}
+    main .nav_buttons {right: 29rem;}
+    main #one #eff .stext {padding-right: 7vw;}
+    main #one #eff .line .hrline {width: 470px;}
+    main #one #eff .stext h3 {font-size: 45px;}
+    main .first_tab_wrap {width: 24%;}
+    main .suv_tab_wrap {width: 39.3%;}
+    main .tab button {letter-spacing: 7px; font-size: 13px;}
+    main .suv_tab_wrap .tablink {margin-left: 14px; padding: 0 26.5px;}
+    main .second_dancer div h3 {font-size: 17px;}
+    main .second_dancer div span {font-size: 13px;}
+
+    main .text_box {width: 40%;}
+    main .text_box figure img {width: 65%;}
+    main .text_box video {width: 70%;}
+    main .device_box .text_wrap {width: 55%;}
+    main .device_box .text_wrap .title p {font-size: 14px;}
+    main .perfo_sticky .device_box .text_wrap {margin-left: -61px;}
+    main .perfo_sticky2 .device_box {left: 16%;}
+    main .perfo_sticky2 .text_box figure {margin-left: -242px;}
+
+    main .review .title h2 {font-size: 35px;}
+    main .review .title span {font-size: 30px;}
+    main .review .container {width: 960px;}
+    main .s_wrap::after {font-size: 26px;}
+    main .swiper-pagination-bullet {width: 30px;}
+    main .review .swiper-slide p {font-size: 15px;}
+    main .swiper-slide span {font-size: 13px;}
+    main .swiper-slide:nth-child(1) img {width: 255px; right: 363px;}
+    main .swiper-slide:nth-child(2) img {width: 270px; bottom: 20px;}
+    main .swiper-slide:nth-child(3) img {width: 280px;}
+    main .swiper-slide:nth-child(4) img {top: -6px; right: 348px; width: 200px;}
+
+    footer .footer_wrap .footer_top {font-size: 16px;}
+    footer .footer_middle .top span {font-size: 15px;}
+    footer .footer_middle .top p {font-size: 13px;}
+    footer .footer_middle .top .t_left {padding: 10px 0;}
+    footer .footer_middle .bot span {font-size: 14px; margin-bottom: 10px;}
+    footer .footer_middle .bot p {font-size: 11px;}
+    footer .footer_bottom img {width: 90px;}
+} 
+
+
+@media (max-width:768px){
+    body.on {height: 11000px !important;}
+
+    header #mNav {display: block; top: 33px; right: 33px;}
+    header .menu_left, header .menu_right {display: none;}
+    header .h_inner .logo {width: 75px; margin-left: 18rem;}
+    header .header .h_inner {height: 72px;}
+
+
+    main .main_wrapper .container {margin: -49px auto;}
+    main .b_circle {display: none;}
+
+    main .introduce .int_wrap .cursor {display: none;}
+    main .introduce .text_wrap .int_text {
+        width: 535px;
+        padding: 17px 48px;
+        left: 6.5rem;
+    }
+    main .introduce .img_wrap {margin-bottom: 0;}
+    main .introduce .img_wrap .int_img {height: 69vh;}
+
+    main .introduce .hero_gallery_figure span {font-size: 107px;}
+
+    main .academy .title {margin-left: -40rem; margin-bottom: 45px;}
+
+    main .application_wrap {width: 49%;}
+    main .application .app_title {font-size: 20px;}
+    main .application form label {width: 150px;}
+    main .application form input.w_box {width: 307px;}
+    main .class_choice::before {width: 307px;}
+    main .application form .class_choice .radio {margin-left: 37px;}
+    main .application form .e_mail #email_front {width: 125px;}
+    main .application form .e_mail #email_back {width: 148px;}
+    main .application form .memo label,
+    main .application form .memo textarea {display: none;}
+    main .application .submit {margin-top: 26px;}
+    main .application_wrap .click {font-size: 20px;}
+    main .application_wrap .application {height: 583px;}
+    main .img-comp-img img {height: 600px; width: 600px;}
+    main .img-comp-container {margin-left: 6%; margin-top: 3%;}
+
+    main .performance {margin-top: 48px;}
+    main .performance .perfo_slide {width: 598px;}
+    main .performance .perfo_slide .slide .img_wrap img {width: 51%; height: 204px;}
+    main .perfo_slide .slide .text_wrap .text_info {width: 142px; padding: 20px;}
+    main .perfo_slide .text_bottom {display: none;}
+    main .perfo_slide .text_tit h4 {font-size: 18px;}
+    main .perfo_slide .text_tit {border-bottom: none;}
+
+    main .notice .container {width: 768px;}
+    main .notice_wrap .accordion .aco_right span {display: none;}
+    main .notice_wrap .accordion .aco_left {font-size: 14px; margin-left: -11px;}
+    main .notice_wrap .accordion .aco_right .num {font-size: 19px;}
+    main .accordion::after {font-size: 16px;}
+    main .notice_wrap .accordion {padding: 9px 16px;}
+    main .notice_wrap .panel span {transform: translateX(102px);}
+    main .notice_wrap .panel p {
+        transform: translateX(102px); 
+        font-size: 10px;
+        width: 460px;
+    }
+    main .panel {max-height: 127px;}
+    main .notice_wrap .notice_inner {padding: 40px 87px 40px 60px;}
+
+    main .first-parallel, main .second-parallel {font-size: 32px;}
+    main .newsletter .video,
+    main .text_main .newsletter .news_inner .video video {width: 100%;}
+    main .text_main .newsletter .news_inner .video video {margin-top: -64px;}
+    main .cover2 {margin-top: -5px;}
+    main .newsletter .right_txt {display: none;}
+    main .text_main {padding-top: 0;}
+
+    main .sj_panorama {height: 730px;}
+    main .sj_panorama .pano_wrap .list li {width: 335px;}
+    main .subscribe .sub_btn .circle_txt {
+        width: 250px; height: 250px;
+        left: 84px; /* 이동할 위치값 */
+        transform: translateX(-100px);
+    }
+    main .sub_text div:nth-child(1) {font-size: 22px;}
+    main .sub_text div:nth-child(2) {font-size: 25px;}
+    main .sub_text div:nth-child(3) {font-size: 30px;}
+    main .sj_panorama .controls a {font-size: 44px;}
+    main .subscribe .sub_application form {
+        width: 345px;
+        padding: 25px 38px 25px 94px;
+    }
+    main .subscribe .sub_application form input {
+        width: 215px;
+        padding: 7px;
+        margin-left: 13px;
+    }
+    main .subscribe .sub_application a {font-size: 18px;}
+
+    main .people {margin-bottom: 135px;}
+    main .people .container {width: 768px;}
+    main .people .tab {flex-direction: column;}
+    main .suv_tab_wrap {transform: translateY(33rem);}
+    main .first_tab_wrap {width: 77%;}
+    main .suv_tab_wrap {width: 100%;}
+    main .suv_tab_wrap .tablink {padding: 9px 47px;}
+    main .suv_tab_wrap .tablink:nth-child(1) {margin-left: -1px;}
+    main #one #eff .line .hrline {width: 100%;}
+    main #view {width: 50px; height: 50px;}
+    main #view h1 {font-size: 17px;}
+    main .people .peo_wrap .first_dancer {width: 82%; transform: translateY(-3rem);}
+    main .people .peo_wrap {flex-direction: column;}
+    main .people .peo_wrap .second_dancer {transform: translateY(61px);}
+    main .second_dancer .tabcontent img {width: 144px;}
+    main .nav_buttons {right: 11rem;}
+
+    main .device_box {display: none;}
+    main .perfo_sticky, main .perfo_sticky2 .fix_motion {height: 103rem;}
+    main .perfo_sticky .text_box {transform: translate(6rem,-17rem);}
+    main .perfo_sticky2 .text_box {transform: translate(-14rem, -16rem);}
+    main .text_box figure img {width: 90%;}
+    main .text_box video {width: 100%;}
+    main .perfo_sticky .fix_motion {padding: 0;}
+
+    main .review {transform: translateY(-27rem);}
+    main .review .container {width: 768px;}
+    main .review .swiper {top: 61px; width: 580px;}
+    main .s_wrap::after {font-size: 23px; transform: translateY(4rem);}
+    main .review .rev_bg {display: none;}
+
+    footer .footer_wrap .footer_top {
+        margin: -6rem 0 30px;
+        font-size: 13px;
+        letter-spacing: 17px;
+    }
+    footer .footer_wrap .footer_middle .top {flex-direction: column;}
+    footer .footer_wrap .footer_middle .top span {font-size: 14px;}
+    footer .footer_wrap .footer_middle .top .t_left {width: 100%;}
+    footer .footer_wrap .footer_middle .top .t_right {border-top: 0; width: 93%;}
+    footer .footer_wrap .footer_middle .top .t_right span {margin: 0;}
+    footer .footer_wrap .footer_middle .bot {width: 100%;}
+    footer .footer_wrap .footer_middle .bot span {margin-bottom: 18px; padding-left: 25px;}
+    footer .footer_wrap .footer_middle .bot p {font-size: 13px;}
+    footer .footer_wrap .footer_bottom img {width: 67px;}
+
+    #scrollup {width: 40px; height: 40px;}
+    #scrollup i {display: none;}
+    #scrollup span {
+        font-size: 23px;
+        display: block;
+        transform: translateY(-23px);
+    }
+}
+
+
+@media (max-width:600px){
+    body.on {height: 10500px !important;}
+    header .menuOpen .menuWrap.on {width: 600px;}
+    header .menuOpen .menuWrap .tit li {font-size: 30px;}
+
+    header .h_inner .logo {margin-left: 14.2rem; width: 72px;}
+    header #mNav .ham span {width: 90%;}
+
+    .main_wrapper .main_wrap .right_wrap .right_img, .main_wrapper .main_wrap .left_wrap .left_img {width: 36vw;}
+    main .introduce .title h2 {font-size: 30px;}
+    main .introduce .title span {font-size: 26px;}
+    main .introduce .int_img canvas {height: 48vh; width: 82vw;}
+    main .introduce .text_wrap .int_text {
+        width: 422px;
+        left: 4.5rem; top: 9.5rem;
+        padding: 0 35px;
+    }
+    main .introduce .text_wrap .int_text p {
+        font-size: 13px;
+        padding: 36px 0;
+    }
+    main .introduce .hero_gallery_figure span {font-size: 82px;}
+    main .introduce .hero_gallery_figure img {width: 200px;}
+
+    main .academy {margin-top: -6rem;}
+    main #academy .container {width: 600px;}
+    main .academy .title {margin-left: -8rem; margin-top: -30px;}
+    main .academy .title h2 {font-size: 30px;}
+    main .academy .title span {font-size: 26px;}
+    main .application_wrap {width: 74%; margin-top: 50px;}
+    main .application .point1, main .application .point2 {width: 50px;}
+    .application .point1 {
+        position: absolute;
+        top: -19px; left: 26px;
+    }
+    .application .point2 {
+        position: absolute;
+        top: 86px; right: 28px;
+    }
+    main .application .app_title {font-size: 18px;}
+    main .application .app_sub_title span {font-size: 24px;}
+    main .application .app_title::after {font-size: 36px;}
+    main .application form label {
+        width: 105px; height: 40px;
+        font-size: 15px;
+        margin-right:0;
+    }
+    main .application form div {padding: 0px 50px;}
+    main .application form input.w_box {width: 217px; height: 40px;}
+    main .class_choice::before {
+        width: 216px; height: 40px;
+        right: 67px;
+    }
+    main .application form .class_choice {font-size: 13px;}
+    main .application form .class_choice .radio {margin-left: 16px;}
+    main .application form .e_mail #email_front {width: 87px; height: 40px;}
+    main .application form div {font-size: 13px;}
+    main .application form .e_mail #email_back {width: 101px; height: 40px;}
+    main .application form .e_mail option {font-size: 13px;}
+    main .application form .phone .text {font-size: 13px;}
+    main .application .submit::after, main .application .submit::before {display: none;}
+    main .application .submit a {font-size: 15px;}
+    main .application_wrap .click {font-size: 18px;}
+    main .application_wrap .application {height: 540px;}
+    main .img-comp-img img {height: 450px; width: 450px;}
+    main .img-comp-container {margin-left: 11%; margin-top: 9%;}
+    main .img-comp-slider {width: 80px; height: 80px;}
+    main .img-comp-slider::before {font-size: 17px;}
+
+    main .performance {margin-top: -9rem;}
+    main .performance .container {width: 600px;}
+    main .performance .perfo_top h2 {font-size: 30px;}
+    main .performance .perfo_top span {font-size: 26px;}
+    main .performance .more_btn {display: none;}
+    main .perfo_slide .slick-prev {top: -82%; right: -55%;}
+    main .perfo_slide .slick-prev::before {font-size: 30px;}
+    main .perfo_slide .slick-next {right: 7rem; top: -10.5rem;}
+    main .perfo_slide .slick-next::before {font-size: 30px;}
+    main .performance .perfo_slide {transform: translateX(52px);}
+    main .perfo_slide .slide .text_wrap {display: none;}
+
+    main .notice .container {width: 600px;}
+    main .notice .title {margin-bottom: 24px;}
+    main .notice .title h2 {font-size: 30px;}
+    main .notice .title span {font-size: 26px;}
+    main .notice_wrap .accordion .aco_right .num {font-size: 16px;}
+    main .notice_wrap .accordion .aco_right {width: 4%;}
+    main .notice_wrap .accordion .aco_left {font-size: 13px; margin-left: 11px;}
+    main .notice_wrap .notice_inner {padding: 37px 68px 37px 49px;}
+    main .notice_wrap .accordion {padding: 9px 11px;}
+    main .notice_wrap .accordion {padding: 9px 11px;}
+    main .accordion::after {font-size: 14px;}
+    main .notice_wrap .panel p {
+        transform: translateX(48px);
+        width: 395px;
+    }
+    main .notice_wrap .panel span {
+        transform: translateX(48px);
+        font-size: 12px;
+        margin-top: 11px; margin-bottom: 4px;
+    }
+
+    main .first-parallel, main .second-parallel {font-size: 28px;}
+    main .subscribe .sub_btn .click {display: none;}
+    main .subscribe .sub_btn .circle_txt {width: 230px; height: 230px;}
+    main .subscribe .sub_btn .sub_text {top: 61px; left: 54px;}
+    main .sub_text div:nth-child(2) {font-size: 23px;}
+    main .sub_text div:nth-child(3) {font-size: 27px;}
+    main .subscribe .sub_application {display: none;}
+    main .subscribe .sub_btn .circle_txt {pointer-events: none;}
+
+    main .people .container {width: 600px;}
+    main .people .title h2 {font-size: 30px;}
+    main .people .title span {font-size: 26px;}
+    main .nav_buttons {right: 11rem; top: 0.5rem;}
+    main .nav_buttons span {font-size: 18px;}
+    main .nav_buttons i {font-size: 25px;}
+    main .people .peo_wrap .first_dancer {width: 78%;}
+    main .people .tab .first_tab_wrap .tablink {width: 93%;}
+    main #one #eff .stext h3 {font-size: 40px;}
+    main #one #eff .stext p {font-size: 15px; margin-right: 5px;}
+    main .second_dancer .tabcontent img {width: 104px;}
+    main .second_dancer div h3 {font-size: 15px;}
+    main .second_dancer div span {font-size: 12px;}
+    main .suv_tab_wrap .tablink {padding: 8px 22.6px;}
+    main .suv_tab_wrap .tablink {margin-left: 6px;}
+    main .text_box figure img {width: 80%;}
+    main .perfo_sticky .text_box {transform: translate(2rem,-17rem);}
+    main .perfo_sticky2 .text_box {transform: translate(-18rem,-17rem);}
+
+    main .review {transform: translateY(-22rem);}
+    main .review .title h2 {font-size: 30px;}
+    main .review .title span {font-size: 26px;}
+    main .review .container {width: 600px;}
+    main .review .swiper-slide p {font-size: 13px; padding: 105px 72px 40px 0;}
+    main .s_wrap::after {font-size: 21px; transform: translateY(5rem);}
+    main .swiper-slide:nth-child(1) img {width: 237px; left: -8rem;}
+    main .swiper-slide:nth-child(2) img {width: 262px; bottom: 5rem;}
+    main .swiper-slide:nth-child(3) img {width: 260px; left: -5rem;}
+    main .swiper-slide:nth-child(4) img {right: 16rem; width: 180px;}
+    main .swiper-slide:nth-child(5) img {width: 204px;}
+
+    footer .footer_wrap .footer_top {font-size: 11px;}
+    footer .footer_middle .top p {font-size: 12px;}
+    footer .footer_middle .top ul li {padding: 8px 25px;}
+    footer .footer_middle .bot span {font-size: 13px;}
+    footer .footer_wrap .footer_middle .bot p {font-size: 12px;}
+    footer .footer_wrap .footer_bottom img {width: 44px;}
+    footer .footer_bottom {margin-top: 50px;}
+
+    #scrollup {width: 30px; height: 30px;}
+    #scrollup span {font-size: 20px; transform: translateY(-25px);}
+}
+
+
+@media (max-width:480px){
+    body.on {height: 6000px !important;}
+    header .menuOpen .menuWrap.on {width: 480px;}
+    header .menuOpen .menuWrap .tit li {font-size: 27px;}
+    header .h_inner .logo {margin-left: 10.8rem; width: 61px;}
+    header #mNav .ham span {width: 80%;}
+    .main_wrapper .main_wrap .right_wrap .right_img, .main_wrapper .main_wrap .left_wrap .left_img {width: 34vw;}
+
+    main .introduce {margin-top: 130px;}
+    main .introduce .title h2 {font-size: 25px;}
+    main .introduce .title span {font-size: 21px;}
+    main .introduce .text_wrap .int_text {width: 316px; left: 4rem; padding: 20px 25px;}
+    main .introduce .text_wrap .int_text p {padding: 20px 0; line-height: 2;}
+    main .introduce .hero_gallery_figure span {font-size: 60px;}
+    main .introduce .hero_gallery_figure img {width: 193px;}
+
+    main .academy {margin-top: 2rem;}
+    main #academy .container {width: 480px;}
+    main .academy .title {margin-left: -6.5rem;}
+    main .academy .title h2 {font-size: 25px;}
+    main .academy .title span {font-size: 21px;}
+    main .application_wrap {margin-left: 41px; width: 77%;}
+    main .application .point1, main .application .point2 {width: 45px;}
+    main .application .point1 {
+        position: absolute;
+        top: -23px; left: 23px;
+    }
+    main .application .point2 {right: 24px;}
+    main .application .app_title {font-size: 16px;}
+    main .application .app_sub_title span {font-size: 22px;}
+    main .application form label {width: 89px; height: 36px; font-size: 14px; line-height: 36px;}
+    main .application form input.w_box {width: 176px; height: 35px;}
+    main .class_choice::before {width: 173px; height: 35px; right: 52px;}
+    main .application form .class_choice {font-size: 10px;}
+    main .application form .class_choice .radio {margin-left: 11px;}
+    main .application form .e_mail #email_front {
+        width: 65px; height: 35px;
+    }
+    main .application form .e_mail #email_back {
+        width: 80px; height: 35px;
+    }
+    main .application_wrap .click {display: none;}
+    main .application_wrap .application {height: 496px;}
+    main .img-comp-img img {height: 380px; width: 380px;}
+    main .img-comp-container {margin-left: 9%;}
+
+    main .performance {margin-top: -13rem;}
+    main .performance .container {width: 480px;}
+    main .performance .perfo_top h2 {font-size: 25px;}
+    main .performance .perfo_top span {font-size: 21px;}
+    main .performance .perfo_slide .slide .img_wrap img {
+    width: 49%; height: 185px;}
+    main .perfo_slide .slick-prev {top: -10rem; right: -7rem;}
+    main .perfo_slide .slick-next {top: -10rem; left: 16rem;}
+
+    main .notice .container {width: 480px;}
+    main .notice .title h2 {font-size: 25px;}
+    main .notice .title span {font-size: 21px;}
+    main .notice_wrap .accordion .aco_right .num {display: none;}
+    main .notice_wrap .accordion .aco_left {margin-left: 0;}
+    main .notice_wrap .notice_inner {padding: 29px 58px 29px 31px;}
+    main .notice_wrap .accordion .aco_left {font-size: 10px;}
+    main .notice_wrap .panel span {transform: translateX(34px);}
+    main .notice_wrap .panel p {transform: translateX(34px); width: 344px;}
+    main .accordion::after {font-size: 13px;}
+    main .first-parallel, main .second-parallel {font-size: 21px;}
+
+    main .people {padding: 50px;}
+    main .people .title h2 {font-size: 25px;}
+    main .people .title span {font-size: 21px;}
+    main .people .container {width: 480px;}
+    main .nav_buttons {right: 8rem;}
+    main .nav_buttons .click {display: none;}
+    main #one #eff .stext h3 {font-size: 36px;}
+    main .second_dancer .tabcontent img {width: 84px;}
+    main .second_dancer div span {font-size: 10px;}
+    main .suv_tab_wrap .tablink {padding: 8px 9.5px;}
+    .people .tab .suv_tab_wrap .tablink {transform: translateY(-3rem);}
+    main .people .peo_wrap .second_dancer {height: 390px;}
+
+    main .perfo_sticky {display: none;}
+
+    main .review {transform: translateY(-4rem);}
+    main .review .title h2 {font-size: 25px;}
+    main .review .title span {font-size: 21px;}
+    main .review .container {width: 480px;}
+    main .review .swiper {width: 480px; right: 52px;}
+
+    footer .footer_wrap .footer_top {margin-top: -15rem;}
+    footer .footer_wrap .footer_top {letter-spacing: 10px;}
+    footer .footer_wrap .footer_bottom {display: none;}
+}
