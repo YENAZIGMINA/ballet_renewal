@@ -584,6 +584,7 @@
 
 @media (max-width:480px){
     body.on {height: 6000px !important;}
+    .cookie {pointer-events: none;}
     header .menuOpen .menuWrap.on {width: 480px;}
     header .menuOpen .menuWrap .tit li {font-size: 27px;}
     header .h_inner .logo {margin-left: 10.8rem; width: 61px;}
@@ -635,7 +636,7 @@
     main .performance .perfo_slide .slide .img_wrap img {
     width: 49%; height: 185px;}
     main .perfo_slide .slick-prev {top: -10rem; right: -7rem;}
-    main .perfo_slide .slick-next {top: -10rem; left: 16rem;}
+    main .perfo_slide .slick-next {top: -10rem; left: 22.5rem; width: 30px;}
 
     main .notice .container {width: 480px;}
     main .notice .title h2 {font-size: 25px;}
