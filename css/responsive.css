@@ -675,3 +675,98 @@
     footer .footer_wrap .footer_top {letter-spacing: 10px;}
     footer .footer_wrap .footer_bottom {display: none;}
 }
+
+
+@media (max-width:370px) {
+    header .h_inner .logo {margin-left: 8rem; width: 58px;}
+    header .menuOpen #mNav {right: -7px;}
+    header #mNav .ham span {width: 75%;}
+    header .header .h_inner {height: 56px;}
+
+    main .main_wrap .main_img {gap: 12px;}
+    main .main_wrapper .container {margin: -63px auto;}
+
+    main .introduce .text_wrap .int_text {
+        width: 261px;
+        left: 2.8rem; top: 8.5rem;
+        padding: 0px 25px;
+        border-radius: 20px;
+    }
+    main .introduce .title h2 {font-size: 23px; margin-right: 2px; margin-bottom: 28px;}
+    main .introduce .title span {font-size: 18px;}
+    main .introduce .hero_gallery_figure span {font-size: 55px;}
+    main .introduce .hero_gallery_figure img {width: 179px;}
+
+    main #academy .container {width: 370px;}
+    main .academy .title {margin-left: -4.5rem; margin-top: 4rem;}
+    main .academy .title h2 {font-size: 23px; margin-right: 2px; margin-bottom: 0px;}
+    main .academy .title span {font-size: 18px;}
+    main .application .app_title {font-size: 15px;}
+    main .application .point1, main .application .point2 {width: 40px;}
+    main .application .app_sub_title span {font-size: 20px;}
+    main .application form div {padding: 0 30px;}
+    main .application form label {width: 80px; height: 33px; line-height: 36px;}
+    main .application form input.w_box {width: 140px; height: 33px;}
+    main .application form .class_choice, main .application form .e_mail {display: none;}
+    main .application .submit a {padding: 10px 30px;}
+    main .application form {padding-bottom: 15px;}
+    main .application_wrap .application {height: 385px;}
+    main .img-comp-container {display: none;}
+
+    main .performance {margin-top: 5rem;}
+    main .performance .container {width: 370px;}
+    main .performance .perfo_top h2 {font-size: 23px; margin-right: 2px; margin-bottom: 28px;}
+    main .performance .title span {font-size: 18px;}
+    main .performance .perfo_top {margin-bottom: 0;}
+    main .perfo_slide .slick-prev {top: -9rem; right: 5rem;}
+    main .perfo_slide .slick-next {top: -9rem; left: 16rem;}
+    main .perfo_slide .slick-prev::before,
+    main .perfo_slide .slick-next::before {font-size: 25px;}
+
+    main .notice .container {width: 370px;}
+    main .notice .title h2 {font-size: 23px; margin-right: 2px; margin-bottom: 28px;}
+    main .notice .title span {font-size: 18px;}
+    main .notice_wrap .notice_inner {padding: 23px 41px 23px 16px;}
+    main .notice_wrap .accordion {padding: 9px 5px;}
+    main .accordion::after {font-size: 11px;}
+    main .notice_wrap .panel p {
+        transform: translateX(17px);
+        width: 275px;
+    }
+    main .notice_wrap .panel span {
+        font-size: 11px;
+        transform: translateX(17px);
+    }
+    main .notice_wrap .accordion .aco_left {margin-left: -14px;}
+    main .notice .title {margin-bottom: 0; margin-left: 20px;}
+
+    main .text_main {transform: translateY(-61px);}
+    main .news_subscribe {margin-top: -4rem;}
+    main .sj_panorama {height: 530px;}
+    main .sj_panorama .controls a {font-size: 38px;}
+    main .subscribe .sub_btn .circle_txt {width: 200px; height: 200px;}
+    main .subscribe .sub_btn .circle_txt {transform: translate(-6rem,3rem);}
+    main .sub_text div:nth-child(1) {font-size: 21px;}
+    main .sub_text div:nth-child(3) {font-size: 25px;}
+    main .subscribe .sub_btn .sub_text {top: 53px; left: 2.5rem;}
+
+    main .people {padding: 37px; padding-top: 80px;}
+    main .people .container {width: 370px;}
+    main .people .title h2 {font-size: 23px; margin-right: 2px; margin-bottom: 28px;}
+    main .people .title span {font-size: 18px;}
+    main .nav_buttons i {font-size: 21px;}
+    main .nav_buttons {right: 6.5rem;}
+    main #one #eff .stext h3 {font-size: 34px;}
+    main #one #eff .line {width: 108%;}
+    main #one #eff .line .hrline {margin-top: 10px; margin-bottom: 10px;}
+    main #view {display: none;}
+    main .people .peo_wrap .second_dancer, main .suv_tab_wrap {display: none;}
+    main .first_dancer_wrap {transform: translateY(44px);}
+
+    main .review {display: none;}
+
+    footer {padding-top: 7rem;}
+    body.on {height: 5000px !important;}
+    header .menuOpen .menuWrap.on {width: 370px; height: 22rem;}
+    header .menuOpen .menuWrap .tit li {font-size: 23px; margin-bottom: 9px;}
+}
